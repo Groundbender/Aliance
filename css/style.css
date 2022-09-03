@@ -56,7 +56,7 @@ color: inherit;
   border:none;
   flex-shrink: 0;
 
-  padding: 25 60;
+  padding: 25px 60px;
   gap: 10px;
 }
 .header-button {
