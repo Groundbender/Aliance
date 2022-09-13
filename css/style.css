@@ -10,8 +10,7 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  width: 1920px;
-}
+;}
 .container {
   max-width: 1440px;
   margin: auto;
@@ -47,7 +46,7 @@ body {
   background-image: url('../img/header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom -54px;
+  background-position: center bottom -56px;
   position: relative;
 } 
 .header-image::before {
@@ -75,7 +74,7 @@ z-index:0;
     display: flex;
     flex-basis: 100%;
     list-style: none;
-    padding: 0 50px;
+    padding: 0 48px;
     margin: 0;
 
 }
@@ -90,8 +89,8 @@ z-index:0;
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-right: 50px;
-  padding-inline: 16px;
+  margin-right: 48px;
+ 
 }
 .header-phone-link {
   text-decoration: none;
@@ -113,10 +112,11 @@ z-index:0;
   .navbar-button {
     flex-shrink: 0;
     height: 100%;
-    padding: 25px 34px;
+    padding: 25px 50px;
   }
 .header-button {
   height: 100%;
+  padding: 27px 66px;
 
 
 }
@@ -136,9 +136,9 @@ z-index:0;
   font-family: 'Bebas Neue Book';
   font-size: 80px;
   line-height: 120%;
-  margin: 23px 0px;
-  letter-spacing: 0.8px;
-    word-spacing: -1.6px;
+  margin: 20px 7px;
+    letter-spacing: 0.8px;
+    word-spacing: -5.6px;
 }
 .header-text {
   max-width: 720px;
@@ -146,20 +146,20 @@ z-index:0;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  margin-bottom: 34px;  
-  padding: 16px 0px;
+  margin-bottom: 30px;
+  padding: 16px 6px;
 }
 .header-features {
   display: flex;
   min-height: 168px;
   padding: 0px;
-  margin-top: 102px;
+  margin-top: 97px;
   list-style: none;
   color: white;
   position: relative;
 }
 .header-features-item {
-  padding: 28px 50px;
+  padding: 27px 55px;
   border: 1px solid  rgba(235, 235, 240, 0.2);
   width: 288px;
 }
@@ -183,6 +183,7 @@ z-index:0;
   line-height: 120%;
   color: #292D33;
   margin-top: 21px;
+  margin-left: 7px;
   
 }
 .steps {
@@ -218,8 +219,9 @@ max-width: 330px;
   font-size: 28px;
   line-height: 160%;
   color: #292D33;
-  margin-top: 38px;
-  margin-bottom: -5px;
+  margin-top: 34px;
+  margin-bottom: -6px;
+  margin-left: 9px;
   
 }
 .steps-text {
@@ -228,6 +230,7 @@ max-width: 330px;
   line-height: 160%;
   color: #828A99;
   margin-bottom: 20px;
+  margin-left: 6px;
 }
 .steps-link {
   display: flex;
@@ -237,7 +240,7 @@ max-width: 330px;
   font-size: 16px;
   line-height: 160%;
   color: #5C8EE6;
-  padding-left: 20px;
+  padding-left: 26px;
 }
 .steps-link:before {
   content: "";
