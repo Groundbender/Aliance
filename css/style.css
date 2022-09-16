@@ -336,6 +336,7 @@ max-width: 20.625rem;
     height: 1px;
     background-color: #fff;
     width: 100%;
+    transition: transform 0.2s;
     
   }
   .mobile-menu-line:nth-child(2) {
@@ -350,7 +351,6 @@ max-width: 20.625rem;
 
   }
   .mobile-menu {
-    display: block;
     position: fixed;
     top: 0;
     right: 0;
@@ -366,7 +366,7 @@ max-width: 20.625rem;
     padding-right: 1.5rem;
 }
 .mobile-menu.is-open {
-  display: none;
+  display: block;
 }
 .mobile-menu-nav {
   list-style: none;
@@ -421,5 +421,14 @@ max-width: 20.625rem;
   line-height: 160%;
   color: #292D33;
 
+}
+.close-menu .mobile-menu-line:nth-child(2) {
+  display: none;
+}
+.close-menu .mobile-menu-line:nth-child(1) {
+  transform: rotate(45deg) translateY(9px);
+}
+.close-menu .mobile-menu-line:nth-child(3) {
+  transform: rotate(315deg) translateY(-9px);
 }
 }
