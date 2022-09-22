@@ -85,6 +85,8 @@ z-index:0;
 
 .header-nav {
     display: flex;
+    align-items: center;
+    height: 100%;
     flex-basis: 100%;
     list-style: none;
     padding: 0 ;
@@ -92,14 +94,37 @@ z-index:0;
     margin: 0;
 
 }
-
+.header-nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  }
 .header-nav-item:not(:last-child) {
   margin-right: 4%;
 }
 .header-nav-link {
+  display: flex;
+  height: 100%;
+  align-items: center;
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
+  position: relative;
+}
+.header-nav-link:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  bottom: -1px;
+  background-color: #5C8EE6;
+  transform: scaleX(0);
+  transition: width 0.2s;
+  right: auto;
+  left: 0;
+}
+.header-nav-link:hover::after {
+  transform: scaleX(1);
 }
 .header-phone {
   flex-shrink: 0;
@@ -281,6 +306,10 @@ max-width: 20.625rem;
   height: 1px;
   background: #5C8EE6;
   width: 40px;
+  transition: width 0.2s;
+}
+.steps-link:hover::before {
+  width: 60px;
 }
 .steps-buttons {
   display: none;
@@ -297,6 +326,49 @@ max-width: 20.625rem;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 33%;
+  border: 1px solid  #EBEBF0;
+  position: relative;
+  text-decoration: none;
+  transition: border 0.2s;
+}
+.card:hover .card-title {
+  color:  #5C8EE6;
+}
+.card:hover {
+  border-color:  #5C8EE6;
+}
+.card-content {
+  padding: 2.5rem  3.125rem;
+}
+  .card-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #292D33;
+  margin-top: 0;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+.card-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #828A99;
+margin-bottom: 24.625rem;
+}
+.card-image {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  z-index: 0;
 }
 @media ( max-width:1750px){
   html { 
@@ -354,6 +426,9 @@ max-width: 20.625rem;
   }
   .steps-buttons {
     display: flex;
+  }
+  .card {
+    flex-basis: 50%;
   }
 }
 @media ( max-width:992px){
@@ -494,7 +569,9 @@ max-width: 20.625rem;
   .header-content {
     padding-top: 3rem;
   }
-
+  .card {
+    flex-basis: 100%;
+  }
 }
 
 @media (max-width: 576px) {
