@@ -47,7 +47,8 @@ const swiperSteps = new Swiper(".steps-slider", {
   breakpoints: {
     // when window width is >= 320px
     576: {
-      slidesPerView: 2, 
+      slidesPerView: 2,  
+       
     },
     // when window width is >= 480px
     768: {
@@ -72,11 +73,14 @@ const swiper = new Swiper( ".features-slider", {
 breakpoints: {
   // when window width is >= 320px
   576: {
-    slidesPerView: 2, 
+    slidesPerView: 2,
+   
+    
   },
   // when window width is >= 480px
   768: {
     slidesPerView: 3,
+
   },
   // when window width is >= 640px
   1024: {

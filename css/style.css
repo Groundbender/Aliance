@@ -641,12 +641,19 @@ margin-bottom: 24.625rem;
   .header-content {
     padding-top: 2rem;
   }
+  .swiper-slide {
+    max-width: 100%;
+  }
+  .steps {
+    gap: 0rem;
+  }
   .trademark-card {
     grid-template-areas: 
     "logo title"
     "text text";
   }
-
+  
+  
 }
 
 
