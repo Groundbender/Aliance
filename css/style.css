@@ -292,7 +292,7 @@ max-width: 20.625rem;
   margin-top: .625rem;
   margin-bottom: 1.25rem;
 }
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -302,7 +302,7 @@ max-width: 20.625rem;
   color: #5C8EE6;
   
 }
-.steps-link:before {
+.button-link:before {
   content: "";
   height: 1px;
   background: #5C8EE6;
@@ -310,7 +310,7 @@ max-width: 20.625rem;
   transition: width 0.2s;
   margin-right: 1rem;
 }
-.steps-link:hover::before {
+.button-link:hover::before {
   width: 60px;
 }
 .steps-buttons {
@@ -420,6 +420,73 @@ margin-bottom: 24.625rem;
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE6;
 }
+.founder {
+  min-height: 41.25rem;
+ position: relative;
+}
+.founder-photo {
+  position: absolute;
+  left:0;
+  width: 40%;
+  top:0;
+  height: 100%;
+  object-fit: cover;
+}
+.founder-content {
+  max-width: 45rem ;
+}
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.founder-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828A99;
+}
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+.clients-content {
+  flex-basis: 50%;
+}
+.clients-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+
+}
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+  
+}
+.clients-logo-item {
+  flex-basis: 33%;
+  border: 1px solid #EBEBF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+}
+.clients-logo {
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
+}
 @media ( max-width:1750px){
   html { 
    font-size: 14px;
@@ -465,7 +532,7 @@ margin-bottom: 24.625rem;
 
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -483,6 +550,12 @@ margin-bottom: 24.625rem;
   .trademark-card {
     grid-template-columns: auto auto;
   }
+  .founder-content {
+    max-width: 35rem;
+  }
+  .clients-content {
+    flex-basis: 60%; 
+  }
 }
 @media ( max-width:992px){
   html {
@@ -498,13 +571,20 @@ margin-bottom: 24.625rem;
     flex-grow: 1;
     justify-content: center;
   }
+  .logo-svg {
+    max-width: 10rem;
+  }
+  .navbar-button {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:  1.8rem;
+    padding:  2.3rem 2.5rem;
     border-right: 1px solid  rgba(235, 235, 240, 0.2);
 
   }
@@ -613,6 +693,9 @@ margin-bottom: 24.625rem;
 .trademark-cards {
   flex-direction: column;
 }
+.clients-wrapper {
+  flex-direction: column;
+}
 }
 @media (max-width: 768px) {
   .container {
@@ -623,23 +706,21 @@ margin-bottom: 24.625rem;
 
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
   .card {
     flex-basis: 100%;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 3.125rem;
   }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
-  }
-  .header-title {
-    font-size: 2rem;
-
-  }
-  .header-content {
-    padding-top: 2rem;
   }
   .swiper-slide {
     max-width: 100%;
@@ -652,8 +733,12 @@ margin-bottom: 24.625rem;
     "logo title"
     "text text";
   }
-  
-  
+  .clients-list {
+    columns: 1;
+  }
+  .clients-logo-item {
+    flex-basis: 50%;
+  }
 }
 
 
