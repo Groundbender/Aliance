@@ -63,7 +63,7 @@ const swiperSteps = new Swiper(".steps-slider", {
 
 });
 
-const swiper = new Swiper( ".features-slider", {
+const swiper = new Swiper( ".features-slider", { 
   speed: 400,
   slidesPerView: 1,
   navigation: {
@@ -94,3 +94,12 @@ breakpoints: {
 },
 });
 
+const swiperBlog = new Swiper(".blog-slider", {
+  speed: 400,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+});
