@@ -825,14 +825,14 @@ margin-top: 0px;
   max-width: 28.75rem;
   padding: 2.5rem 3.125rem;
   position: relative;
-  transform: translateY(-20%);
+  transform: translateY(-10%);
   opacity: 0;
   transition: transform 0.3s, opacity 0.3s;
 
 
 }
 .modal-close {
-  display:block;
+  display:flex;
   position: absolute;
   top:40px;
   right:50px;
