@@ -102,7 +102,7 @@ breakpoints: {
 
 const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
     nextEl: '.blog-button-next',
