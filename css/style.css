@@ -415,6 +415,7 @@ margin-bottom: 24.625rem;
 
 .trademark-cards {
   display: flex;
+  margin-top: 55px;
 }
 .trademark-card {
   flex-basis: 50%;
@@ -434,6 +435,8 @@ margin-bottom: 24.625rem;
   width: 100%;
   fill:  #828A99;
   grid-area: logo;
+  margin-top: 8px;
+
  }
  .trademark-card-title {
   grid-area: title;
@@ -442,6 +445,9 @@ margin-bottom: 24.625rem;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292D33;
+  letter-spacing: 0px;
+    word-spacing: 0px;
+
  }
  .trademark-card-text {
   grid-area: text;
@@ -464,6 +470,8 @@ margin-bottom: 24.625rem;
     letter-spacing: 1px;
     word-spacing: -6px;
 }
+
+
 .founder {
   min-height: 41.25rem;
  position: relative;
@@ -471,13 +479,14 @@ margin-bottom: 24.625rem;
 .founder-photo {
   position: absolute;
   left:0;
-  width: 40%;
-  top:0;
+  width: 44%;
+  top: 6px;
   height: 100%;
   object-fit: cover;
 }
 .founder-content {
   max-width: 45rem ;
+  margin-top: 69px;
 }
 .founder-content-wrapper {
   display: flex;
@@ -488,6 +497,13 @@ margin-bottom: 24.625rem;
   font-size: 16px;
   line-height: 160%;
   color: #828A99;
+}
+.founder-title {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.clients-section {
+  margin-top: 10.8125rem;
 }
 .clients-wrapper {
   display: flex;
@@ -509,12 +525,19 @@ margin-bottom: 24.625rem;
   font-size: 1rem;
   line-height: 160%;
   color: #292D33;
+  padding-bottom: 16px;
+  padding-top: 4px;
 
 }
 .clients-logo-list {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 10;
+  margin-top: 11px;
+    margin-left: -33px;
+    height: 480px;
+    width: 891px;
+
   
 }
 .clients-logo-item {
@@ -535,6 +558,14 @@ margin-bottom: 24.625rem;
   max-width: 100%;
   width: 70px;
   height: 70px;
+}
+.blog-section {
+  margin-top: 167px;
+}
+.blog-title {
+  letter-spacing: 1px;
+    word-spacing: -5px;
+    margin-bottom: 59px;
 }
 .blog-card {
   display: flex;
@@ -593,7 +624,7 @@ margin-top: 0px;
 .section-cta {
   position: relative;
   padding-top: 6.25rem;
-  margin-top: 9.375rem;
+  margin-top: 12.375rem;
   padding-bottom: 6.25rem;
 }
 .cta-image {
@@ -1101,6 +1132,16 @@ margin-top: 0px;
 .clients-wrapper {
   flex-direction: column;
 }
+.founder-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.founder-photo {
+  position:static;
+  margin: auto;
+  
+
+}
 }
 @media (max-width: 768px) {
   .container {
@@ -1166,7 +1207,7 @@ margin-top: 0px;
   .section-title {
     margin-top: 7px;
     margin-bottom: 12px;
-   font-size: 2.75rem;
+   font-size: 2.8rem;
     }
     .steps-num {
       font-size: 4rem;
@@ -1188,6 +1229,97 @@ margin-top: 0px;
      .card-text {
       font-size: 14px;
      }
+     .founder-content-wrapper{
+      margin-top: -42px;
+     }
+     .founder-text {
+      font-size: 14px;
+     }
+     .clients-title {
+      margin-bottom: none;
+     }
+     .clients-list-item {
+      font-size: 14px;
+      padding-bottom: 11px
+     }
+     .clients-list {
+      margin-top: 41px;
+     }
+     .blog-slider {
+      margin-left: -0.4rem;
+     }
+     .blog-card {
+      min-width: 100%;
+      gap: 0;
+      min-height: 16.2rem;
+      width: 347px ;
+      padding: 8.2rem 1.6rem 1.7rem 1.5rem;
+     }
+     .blog-card-title {
+      font-size: 1.6rem;
+     }
+     .blog-card-text {
+      display:none;
+     }
+     .section-сta {
+      padding-top: 4.3rem;
+      margin-top: -4.6rem;
+      padding-bottom: 3.3rem;
+     }
+     .cta-form-title {
+      margin-top: -25px;
+     }
+     .cta-image {
+      display: none;
+
+     }
+     .input-group-wrapper {
+      flex-direction: column;
+     }
+     .cta-form-footer {
+      flex-direction: column;
+     }
+     .cta-form-button {
+      width: 100%;
+      height: 62px;
+     }
+     .cta-form-text {
+      font-size: 14px;
+     }
+     .cta-form {
+      margin-top: -41px
+     }
+     .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+     }
+     .footer-logo {
+      max-width: 17rem;
+     }
+     .footer-info {
+      font-size: 14px;
+     }
+     .footer-phone {
+      padding-top: 48px;
+     }
+     .footer-menu-column-2 {
+      columns: auto;
+
+     } 
+     .footer-bottom {
+      flex-direction: column;
+
+     }
+     .footer-menu-title {
+      font-size: 14px;
+     }
+     .footer-menu-link {
+      font-size: 14px;
+     }
+     .footer-menu-wrapper:last-child {
+      margin-left: 0;
+     }
     }
+
 
 

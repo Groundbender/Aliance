@@ -108,6 +108,31 @@ const swiperBlog = new Swiper(".blog-slider", {
     nextEl: '.blog-button-next',
     prevEl: '.blog-button-prev',
   },
+   // when window width is >= 320px
+   breakpoints: {
+   576: {
+    slidesPerView: 1,
+  spaceBetween: 30,
+
+    
+   
+    
+  },
+  // when window width is >= 480px
+  768: {
+    slidesPerView: 2,
+
+  },
+  // when window width is >= 640px
+  1024: {
+    slidesPerView: 2,
+    // when window width is >= 1200px
+  },
+  1200: {
+    slidesPerView: 2,
+   
+  },
+},
 });
 
 const modal = document.querySelector(".modal");
