@@ -991,6 +991,9 @@ margin-top: 0px;
   .clients-content {
     flex-basis: 60%; 
   }
+  .cta-image {
+    width: 40%;
+  }
   
 }
 @media ( max-width:992px){
@@ -1142,6 +1145,32 @@ margin-top: 0px;
   
 
 }
+.clients-logo-list {
+  width: 806px;
+}
+.cta-image {
+  width: 30%;
+}
+.footer-top {
+  gap: 10px;
+}
+.footer-phone {
+  font-size: 12px;
+}
+.footer-logo {
+  max-width: 8rem;
+}
+.footer-menu-list {
+  min-width: 46rem;
+}
+
+ .blog-card {
+  height: 16.2rem;
+ padding: 8.2rem 1.6rem 1.7rem 1.5rem;
+
+  
+}
+
 }
 @media (max-width: 768px) {
   .container {
@@ -1162,8 +1191,31 @@ margin-top: 0px;
     width: 100%;
     padding-bottom: 3.125rem;
   }
+  .clients-logo-list {
+    width: 42.375rem;
+  }
+  .сta-form {
+    max-width: 31.5rem !important;
+  }
+  .footer-logo {
+    max-width: 7rem;
+  }
+  .footer-info {
+    font-size: 10px;
+  }
+  .footer-phone {
+    font-size: 10px;
+  }
+  .footer-top {
+    gap:1px;
+  }
+ .footer-menu-list {
+  min-width: 43rem;
+ }
+ .cta-image {
+  width: 20%;
+ }
 }
-
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
@@ -1247,14 +1299,14 @@ margin-top: 0px;
      }
      .blog-slider {
       margin-left: -0.4rem;
-     }
+      
+    }
      .blog-card {
-      min-width: 100%;
-      gap: 0;
       min-height: 16.2rem;
-      width: 347px ;
+      min-width: 100%;
       padding: 8.2rem 1.6rem 1.7rem 1.5rem;
      }
+     
      .blog-card-title {
       font-size: 1.6rem;
      }
@@ -1286,6 +1338,9 @@ margin-top: 0px;
      .cta-form-text {
       font-size: 14px;
      }
+     .cta-image {
+      width: 20%;
+     }
      .cta-form {
       margin-top: -41px
      }
@@ -1301,6 +1356,7 @@ margin-top: 0px;
      }
      .footer-phone {
       padding-top: 48px;
+      font-size: 16px;
      }
      .footer-menu-column-2 {
       columns: auto;
