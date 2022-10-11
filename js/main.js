@@ -105,6 +105,7 @@ const swiperBlog = new Swiper(".blog-slider", {
     576: {
       slidesPerView: 1,
     },
+    
   },
   
 });
