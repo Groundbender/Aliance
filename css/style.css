@@ -921,6 +921,16 @@ margin-top: 0px;
   padding-top: 50px;
   padding-left: 240px;
 }
+.avtohim-content {
+  position:relative;
+
+}
+.avtohim-image {
+  position:absolute;
+  right: 240px;
+  top: 123px;
+  margin-left: 240px;
+}
 
 .section-title {
   font-family: 'Bebas Neue Book';
