@@ -18,14 +18,14 @@ const changeNavHeight = (height) => {
 const openMenu = (event) => {
   // функция открывания меню
   menu.classList.add("is-open"); // вешает класс is-open
-  mMenuToggle.classList.add("close-menu");
+  mMenuToggle.classList.add("close-menu"); // при открытии меню, вешает класс close-menu, в котором вместо полосок, появляется крестик
   document.body.style.overflow = "hidden"; //запрещаем прокрутку сайта под меню
   lightModeOn();
 };
 const closeMenu = (event) => {
   // функция закрывания меню
   menu.classList.remove("is-open"); // вешает класс is-open
-  mMenuToggle.classList.remove("close-menu");
+  mMenuToggle.classList.remove("close-menu"); 
   document.body.style.overflow = ""; //возвращает прокрутку сайта под меню
   lightModeOff();
 };
@@ -100,13 +100,7 @@ const swiperBlog = new Swiper(".blog-slider", {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
   },
-  breakpoints: {
-    // when window width is >= 320px
-    576: {
-      slidesPerView: 1,
-    },
-    
-  },
+  
   
 });
 
@@ -118,15 +112,20 @@ document.addEventListener("click", (event) => {
     event.target.dataset.toggle == "modal" ||
     event.target.parentNode.dataset.toggle == "modal" ||
     (!event.composedPath().includes(modalDialog) &&
-      modal.classList.contains("is-open") &&
       modal.classList.contains("is-open"))
   ) {
     event.preventDefault();
     modal.classList.toggle("is-open");
+    
+    
   }
+  modal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
 });
 document.addEventListener("keyup", (event) => {
   if (event.key == "Escape" && modal.classList.contains("is-open")) {
     modal.classList.toggle("is-open");
   }
+  modal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
 });
