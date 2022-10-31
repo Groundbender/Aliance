@@ -429,7 +429,9 @@ padding-right: 28px;
     margin-bottom: 24px;
 
 }
-
+.title-trademark {
+  letter-spacing: 0.5px;
+}
 .trademark-cards {
   display: flex;
   margin-top: 55px;
@@ -443,7 +445,7 @@ padding-right: 28px;
   display: grid;
   grid-template-columns: 180px 1fr;
   grid-template-rows: auto 2fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 3.125rem;
   grid-template-areas: 
   "logo title title"
   "logo text text";
@@ -456,23 +458,22 @@ padding-right: 28px;
 
  }
  .trademark-card-title {
-  grid-area: title;
   margin: 0;
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292D33;
-  letter-spacing: 0px;
-    word-spacing: 0px;
-
+  grid-area: title;
+ 
  }
  .trademark-card-text {
-  grid-area: text;
+  font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
   color: #828A99;
-  margin-top: .625rem;
+  grid-area: text;
+  margin-top: 0.625rem;
  }
 .trademark-card:hover {
   border-color:  #5C8EE6;
@@ -483,10 +484,8 @@ padding-right: 28px;
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE6;
 }
-.section-trademark {
-    letter-spacing: 1px;
-    word-spacing: -6px;
-}
+
+   
 
 
 .founder {
