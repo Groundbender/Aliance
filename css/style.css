@@ -976,7 +976,7 @@ gap: 10px;
   font-size: 1rem;
   line-height: 160%;
   color: #828A99;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .modal-input-group {
   background-color: #fff;
@@ -988,7 +988,7 @@ gap: 10px;
   margin-bottom: 24px;
   width: 100%;
   display: block;
-  padding: 1.4375rem 3.75rem;
+  padding: 1.375rem 3.75rem;
   font-size: 14px;
   letter-spacing: 0.3px;
 }
@@ -1001,8 +1001,25 @@ gap: 10px;
   background-color: #F0F2F5;
   margin-top: 94px;
   padding-top: 50px;
-  padding-left: 240px;
+ 
 }
+
+.about-seporater {
+  margin-bottom: 21px;
+  margin-left: 8px;
+}
+.header-title-about {
+  font-family: 'Bebas Neue Book';
+  font-size: 5rem;
+  line-height: 120%;
+  letter-spacing: 0.7px;
+  margin: 21px 0px 27px 0px;
+
+}
+
+
+
+
 .avtohim-content {
   position:relative;
 
@@ -1018,11 +1035,13 @@ gap: 10px;
 
 .breadcrumbs {
   display: flex;
+  margin-left: -38px;
 }
 .breadcrumb {
   list-style: none;
   display:flex;
-  align-items: center;
+  align-items: center ;
+  color:#828A99;
   
 }
 .breadcrumb-link {
@@ -1031,7 +1050,7 @@ gap: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #292D33;
+  color: inherit;
 }
 .breadcrumb:not(:last-child)::after {
   display: block;
@@ -1041,44 +1060,79 @@ gap: 10px;
   width: 14px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 5px;
 }
-.blogmore-header {
+.breadcrumb:last-child {
+  color: #292D33;
+
+}
+.header-blogmore {
   max-width: 100% ;
   height: 22.875rem;
+  margin-top: 94px;
+ 
+ 
+}
+.header-blogmore-image {
   background-image:url(../img/blog-photo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
-  margin-top: 94px;
+  background-position: center -311px ;
+  position: relative;
+}
+.header-blogmore-image:before {
+  content:"";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 45, 51, 0.6);
+  position: absolute;
+  z-index: 0;
+
+}
+.blogmore-content {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
   padding-top: 50px;
-  padding-left: 240px;
-  padding-bottom: 92px;
+
 }
 .blogmore-title {
-  font-family: 'Bebas Neue Book';
-
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 120%;
-  color: #FFFFFF;
-
+  letter-spacing: 0.5px;
 }
+
+
+
+
 .blogmore-link {
   color: #fff;
 }
+.blogmore-breadcrumb {
+  color: #fff;
+}
+.blogmore-breadcrumb:not(:last-child)::after {
+  display: block;
+  content: "";
+  background-color:  #fff;
+  height: 1px;
+  width: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
 
 
-
-@media ( max-width:1750px){
+  @media ( max-width: 1750px) {
   html { 
    font-size: 14px;
    }
-   .header-image {
+  
+  .header-image {
     background-position: center;
    }
-}
+  }
+
 @media ( max-width:1530){
   html { 
    font-size: 13.5px;
@@ -1409,6 +1463,9 @@ gap: 10px;
     "logo title"
     "text text";
   }
+  .trademark-card-logo {
+  margin-top: -26px;
+}
   .clients-list {
     columns: 1;
   }
@@ -1563,7 +1620,7 @@ gap: 10px;
      
      .cta-form-title {
       margin-top: 18px;
-      margin-left: 4px;
+      margin-left: 3px !important;
       letter-spacing: 0.3px;
      }
      .cta-image {
@@ -1670,17 +1727,44 @@ gap: 10px;
       font-size: 12px;
      } 
      .notify {
-      margin-left: 0;
+      margin-left: -27px;
 
+     }
+     .modal-dialog {
+      padding: 23px 30px;
+     }
+     .modal-title {
+      margin-top: 0;
+      margin-bottom: 10px;
+     }
+     .modal-text {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 20px
      }
      .modal-close {
       top: 30px;
       right: 30px;
+      width: 40px;
+      height: 40px;
      }
-     .input-group-wrapper {
+    
+     .input-group-vertical {
       width: 284px;
-      margin-left: -8px;
+      margin-top: 20px;
+      margin-bottom: 18px;
      }
+     .modal-form-footer {
+      margin-top: 20px;
+     }
+     .modal-form-button {
+      height: 62px;
+      margin-bottom: 0;
+     }
+     .modal-notify {
+      margin-top: 18px;
+     }
+     
     }
     
 
