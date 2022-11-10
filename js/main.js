@@ -33,8 +33,9 @@ const closeMenu = (event) => {
 window.addEventListener("scroll", () => {
   this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
   if (isFront) {
-    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+    this.scrollY > 1 ? lightModeOn() : lightModeOff() ;
   }
+ 
 });
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
@@ -50,16 +51,19 @@ const swiperSteps = new Swiper(".steps-slider", {
   },
   breakpoints: {
     // when window width is >= 320px
+    320: {
+      slidesPerView:  1.00001,
+    },
     576: {
       slidesPerView: 2,
     },
     // when window width is >= 480px
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     // when window width is >= 640px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       // when window width is >= 1200px
     },
   },
@@ -74,6 +78,9 @@ const swiper = new Swiper(".features-slider", {
   },
   breakpoints: {
     // when window width is >= 320px
+    320: {
+      slidesPerView: 1.37,
+    },
     576: {
       slidesPerView: 2,
     },
@@ -99,6 +106,17 @@ const swiperBlog = new Swiper(".blog-slider", {
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 480px
+    576: {
+      slidesPerView: 2,
+    },
+    
   },
   
   
