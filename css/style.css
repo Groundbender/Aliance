@@ -365,7 +365,7 @@ max-width: 20.625rem;
   
 }
 .section-production {
-   margin-top: 11.375rem;
+   margin-top: 9.375rem;
    margin-bottom: 10.4375rem;
 }
 .cards {
@@ -507,11 +507,14 @@ padding-right: 28px;
   line-height: 160%;
   color: #828A99;
 }
+
 .second-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #828A99;
+  display: inline-block;
+  margin-top: 23px;
 }
 .founder-title {
   margin-top: 10px;
@@ -638,13 +641,11 @@ padding-right: 28px;
 }
 .blog-card-title {
   font-style: normal;
-  line-height: 144%;
+  line-height: 160%;
   font-weight: 400;
   font-size: 1.75rem;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  letter-spacing: 0.7px;
-  width: 305px;
+ 
+  margin-bottom: 16px;
 }
 .blog-card-text {
   font-style: normal;
@@ -652,6 +653,7 @@ padding-right: 28px;
   font-size: 1rem;
   line-height: 160%;
   margin: 0px;
+  margin-bottom: 4px;
 }
 .blog-slider-footer {
   display: flex;
@@ -1638,6 +1640,9 @@ gap: 10px;
       margin-bottom: 36px;
       word-spacing: 5px;
     }
+    .section-production {
+      margin-top: 11.4rem;
+    }
     .card {
       height: 429px;
       }
@@ -1700,7 +1705,7 @@ gap: 10px;
      }
 
      .founder-content-wrapper{
-      margin-top: -42px;
+      margin-top: -43px;
      }
      .founder-text {
       font-size: 14px;
@@ -1710,7 +1715,7 @@ gap: 10px;
      .second-paragraph {
       font-size: 14px;
       margin-left: -3px;
-      margin-top: -28px;
+      margin-top: 6px;
 
      }
      .founder-button-link {
@@ -1760,6 +1765,11 @@ gap: 10px;
      
      .blog-card-title {
       font-size: 1.6rem;
+      margin-bottom: 15px;
+      line-height: 132%;
+      margin-top: 0px;
+      letter-spacing: 0.7px;
+      width: 305px;
      }
      .blog-card-text {
       display:none;
@@ -1782,11 +1792,12 @@ gap: 10px;
      }
      .input-group-wrapper {
       flex-direction: column;
-      width: 100%;
+      max-width: 28rem;
       gap: 16px;
      }
      .input-group {
       height: 64px;
+      width: 100%;
      }
      .cta-form-footer {
       flex-direction: column;
@@ -1803,9 +1814,14 @@ gap: 10px;
       font-size: 14px;
       margin-top: -7px;
       margin-bottom: 31px;
+      margin-left: -3px;
+      line-height: 155%;
      }
      .cta-image {
       width: 20%;
+     }
+     .cta-notify {
+      margin-left: -39px;
      }
      .cta-form {
       margin-top: -41px;
@@ -1936,6 +1952,7 @@ gap: 10px;
      }
      .modal-notify {
       margin-top: 18px;
+      margin-left: 0px;
      }
      /* .steps-slider-container {
       width: 100vw;
@@ -1944,12 +1961,7 @@ gap: 10px;
       bottom: 0;
       z-index: 10;
     } */
-    .cta-input-group {
-      width: 345px;
-     }
-     .cta-form-title{
-      margin-left: 4px !important;
-     }
+    
      
     }
     
