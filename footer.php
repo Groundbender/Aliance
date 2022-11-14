@@ -28,7 +28,8 @@
           name="userphone"
           placeholder=""
           required
-          maxlenght="30"> 
+          maxlenght="30"
+          > 
             <label class="input-group-label" for="user-phone">Номер телефона</label>
           </div>
           <!-- input-group  -->
@@ -168,11 +169,12 @@
        </div>
       </div>
       <!-- /.container -->
-  </footer>
-  <div class="modal  ">
+    </footer>
+    
+    <div id="feedback-modal" class="modal " >
     <div class="modal-dialog">
       <h2 class="modal-title">Есть вопросы?</h2>
-      <a href="" class="modal-close" data-toggle="modal">
+      <a href="" class="modal-close" data-toggle="modal"  data-target="#feedback-modal">
         <svg class="phone-icon"  width="24" height="24">
           <use href="img/sprite.svg#close"></use>
         </svg>
@@ -210,7 +212,7 @@
         </div>
         <!-- /.input-group-wrapper -->
         <div class="modal-form-footer">
-          <button type="submit" class="button modal-form-button"> Отправить заявку</button>
+          <button type="submit" class="button modal-form-button " > Отправить заявку</button>
           <div class="notify modal-notify">
             <svg class="notify-icon"  width="14" height="14">
               <use href="img/sprite.svg#shield"></use>
@@ -223,9 +225,30 @@
         <!-- cta-form-footer -->
       </form>
     </div>
-  </div >
+  </div>
 
+
+
+  <div id="alert-modal" class="modal " >
+      <div class="modal-dialog">
+        <img src="img/thanks.png" alt="thanks">
+        <h2 class="modal-title">Спасибо за заявку</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+          <svg class="phone-icon"  width="24" height="24">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">
+        Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <button type="reset" class="button modal-form-button " data-toggle="modal" data-target="#alert-modal"> Вернуться на главную</button>
+
+        
+      </div>
+  </div >
+  <script src="https://unpkg.com/imask"></script>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Aliance Production</title>
 </head>
-<body class="front-page">
+<body class="front-page ">
   <div class="mobile-menu ">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
@@ -103,7 +103,7 @@
       </a> 
     </div>
     <!-- /.header phone -->
-    <button class="navbar-button button" data-toggle="modal" >
+    <button class="navbar-button button" data-toggle="modal"  data-target="#feedback-modal"  >
       <svg class="button-icon"  width="24" height="24">
         <use href="img/sprite.svg#phone"></use>
       </svg>
@@ -120,7 +120,7 @@
         </h1>
       <p class="header-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
         </p>
-        <div class="button header-button" data-toggle="modal">Подробнее о компании</div>
+        <div class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</div>
       </div>
       <!-- /.header-content -->
 

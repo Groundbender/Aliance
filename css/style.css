@@ -753,6 +753,20 @@ padding-right: 28px;
   font-size: 0.625rem;
   background-color: inherit;
 }
+.input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: inherit;
+  transform:translateY(-50%);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.8rem;
+  display: inline-block;
+} 
 .cta-form-footer {
   display: flex;
   margin-top: 1.8125rem;
@@ -985,6 +999,8 @@ gap: 10px;
   margin-top: -8px;
   margin-bottom: 29px
 }
+
+
 .modal-text {
   font-style: normal;
   font-weight: 400;
@@ -1143,6 +1159,11 @@ gap: 10px;
   bottom: 0;
   z-index: 10;
 } */
+
+.open-modal {
+  overflow: hidden;
+
+}
 
 
   @media (hover: hover)  {
