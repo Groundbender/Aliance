@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Автомобильная химия - Aliance Production</title>
+  <title>Современная методология - Aliance Production</title>
 </head>
 <body>
   <div class="mobile-menu ">
@@ -67,7 +67,7 @@
   <nav class="navbar navbar-light">
     <a href="#" class="mobile-menu-toggle">
       <div class="mobile-menu-line-container">
-      <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
       </div>
@@ -109,22 +109,19 @@
       <span class="button-text">Получить консультацию</span></button>  
         </nav>
         <!-- navbar -->
-       <header class="header-about header-avtohim">
+       <header class=" header-blogmore header-blogmore-image ">
         <div class="container">
-         <div class="avtohim-content">
+         <div class="blogmore-content">
           <div class="seporater about-seporater"></div>
-          <h2 class="header-title-about header-title-avtohim">Автомобильная химия</h2>
+          <h2 class="header-title-about blogmore-title">Современная методология разработки одухотворила всех причастных</h2>
           <ul class="breadcrumbs">
-            <li class="breadcrumb"><a href="#" class="breadcrumb-link">Главная</a></li>
-            <li class="breadcrumb"><a href="#" class="breadcrumb-link">Контрактное производство</a></li>
-            <li class="breadcrumb"><a href="#" class="breadcrumb-link">Автомобильная химия </a></li>
+            <li class="breadcrumb blogmore-breadcrumb"><a href="#" class="breadcrumb-link blogmore-link">Главная</a></li>
+            <li class="breadcrumb blogmore-breadcrumb"><a href="#" class="breadcrumb-link blogmore-link">Блог</a></li>
+            <li class="breadcrumb blogmore-breadcrumb"><a href="#" class="breadcrumb-link blogmore-link">Современная методология разработки одухотворила всех причастных</a></li>
           </ul>
          </div>
-         <img class="avtohim-image" src="img/avto-him.png" alt="">
        
         </div>
        </header>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-</html>
+
+       <?php include_once('footer.php');?>

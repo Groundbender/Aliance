@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Современная методология - Aliance Production</title>
+  <title>О компании - Aliance Production</title>
 </head>
 <body>
   <div class="mobile-menu ">
@@ -109,21 +109,15 @@
       <span class="button-text">Получить консультацию</span></button>  
         </nav>
         <!-- navbar -->
-       <header class=" header-blogmore header-blogmore-image ">
+       <header class="header-about">
         <div class="container">
-         <div class="blogmore-content">
           <div class="seporater about-seporater"></div>
-          <h2 class="header-title-about blogmore-title">Современная методология разработки одухотворила всех причастных</h2>
+          <h2 class=" header-title-about">О компании</h2>
           <ul class="breadcrumbs">
-            <li class="breadcrumb blogmore-breadcrumb"><a href="#" class="breadcrumb-link blogmore-link">Главная</a></li>
-            <li class="breadcrumb blogmore-breadcrumb"><a href="#" class="breadcrumb-link blogmore-link">Блог</a></li>
-            <li class="breadcrumb blogmore-breadcrumb"><a href="#" class="breadcrumb-link blogmore-link">Современная методология разработки одухотворила всех причастных</a></li>
+            <li class="breadcrumb"><a href="#" class="breadcrumb-link">Главная</a></li>
+            <li class="breadcrumb"><a href="#" class="breadcrumb-link">О компании</a></li>
           </ul>
-         </div>
-       
         </div>
        </header>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-</html>
+       
+  <?php include_once('footer.php');?>
