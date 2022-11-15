@@ -27,16 +27,18 @@ const closeMenu = (event) => {
   menu.classList.remove("is-open"); // вешает класс is-open
   mMenuToggle.classList.remove("close-menu"); 
   document.body.style.overflow = ""; //возвращает прокрутку сайта под меню
-  lightModeOff();
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn() : lightModeOff() ;
+    }
 };
 
 window.addEventListener("scroll", () => {
   this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff() ;
-  }
- 
-});
+    }
+   });
+   
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
