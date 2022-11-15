@@ -13,7 +13,7 @@
               type="text" 
               class="input" 
               name="username"
-              placeholder=""
+              placeholder=" "
               required
               maxlenght="100">
               <label class="input-group-label" for="user-name" >Имя</label>    
@@ -26,7 +26,7 @@
           type="tel" 
           class="input" 
           name="userphone"
-          placeholder=""
+          placeholder="  "
           required
           maxlenght="30"
           > 
@@ -189,7 +189,7 @@
             type="text" 
             class="input modal-input" 
             name="username"
-            placeholder=""
+            placeholder=" "
             required
             maxlenght="100">
             
@@ -203,7 +203,7 @@
         type="tel" 
         class="input modal-input" 
         name="userphone"
-        placeholder=""
+        placeholder=" "
         required
         maxlenght="30"> 
           <label class="input-group-label modal-input-label " for="user-phone">Номер телефона</label>
@@ -231,7 +231,7 @@
 
   <div id="alert-modal" class="modal " >
       <div class="modal-dialog">
-        <img src="img/thanks.png" alt="thanks">
+        <img class= "modal-image" src="img/thanks.png" alt="thanks">
         <h2 class="modal-title">Спасибо за заявку</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="phone-icon"  width="24" height="24">

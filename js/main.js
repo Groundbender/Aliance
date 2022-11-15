@@ -211,12 +211,16 @@ validation
       body: formData, 
 
       }).then((response) => {
-      if (response.ok) {
+      if (response.ok ) {
         thisForm.reset();
+        if ( currentModal.classList.contains("is-open" )) {
         currentModal.classList.remove("is-open");
-        alertModal.classList.add("is-open");
         currentModal = alertModal;    
-
+        alertModal.classList.add("is-open");
+        } else {
+          currentModal = alertModal;    
+          alertModal.classList.add("is-open");
+        };
         modalDialog = currentModal.querySelector(".modal-dialog");
         /* отслеживаем клик по окну и пустым областям */
         currentModal.addEventListener("click", (event) => {
@@ -225,6 +229,7 @@ validation
             /* закрываем окно */
             currentModal.classList.remove("is-open");
           }
+      
           
         });
       } else {

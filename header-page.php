@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Современная методология - Aliance Production</title>
+  <title><?= $page_title ?> -Aliance Production</title>
 </head>
 <body>
   <div class="mobile-menu ">
@@ -83,11 +83,11 @@
         </a>
     <ul class="header-nav">
       <li class="header-nav-item">
-        <a href="/about.html" class="header-nav-link">О компании</a></li>
+        <a href="./about.php" class="header-nav-link">О компании</a></li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контрактное производство</a></li>
+        <a href="./contracts.php" class="header-nav-link">Контрактное производство</a></li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Собственные торговые марки</a></li>
+        <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a></li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Новости</a></li>
       <li class="header-nav-item">
@@ -102,26 +102,20 @@
       </a> 
     </div>
     <!-- /.header phone -->
-    <button class="navbar-button button" data-toggle="modal"  data-target="#feedback-modal" >
+    <button class="navbar-button button" data-toggle="modal"  data-target="#feedback-modal"  >
       <svg class="button-icon"  width="24" height="24">
         <use href="img/sprite.svg#phone"></use>
       </svg>
       <span class="button-text">Получить консультацию</span></button>  
         </nav>
         <!-- navbar -->
-       <header class=" page-header page-header-bg-image ">
+       <header class="page-header <?= $header_style ?>">
         <div class="container">
-         <div class="blogmore-content">
           <div class="seporater about-seporater"></div>
-          <h2 class="header-title-about blogmore-title">Современная методология разработки одухотворила всех причастных</h2>
+          <h2 class=" header-title-about"><?= $page_title ?></h2>
           <ul class="breadcrumbs">
-            <li class="breadcrumb "><a href="#" class="breadcrumb-link">Главная</a></li>
-            <li class="breadcrumb "><a href="#" class="breadcrumb-link">Блог</a></li>
-            <li class="breadcrumb "><a href="#" class="breadcrumb-link">Современная методология разработки одухотворила всех причастных</a></li>
+            <li class="breadcrumb"><a href="#" class="breadcrumb-link">Главная</a></li>
+            <li class="breadcrumb"><a href="#" class="breadcrumb-link active"><?= $page_title ?></a></li>
           </ul>
-         </div>
-       
         </div>
        </header>
-
-       <?php include_once('footer.php');?>

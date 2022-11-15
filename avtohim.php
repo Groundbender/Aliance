@@ -109,9 +109,9 @@
       <span class="button-text">Получить консультацию</span></button>  
         </nav>
         <!-- navbar -->
-       <header class="header-about header-avtohim">
+       <header class="page-header page-header-bg-grey">
         <div class="container">
-         <div class="avtohim-content">
+         <div class="page-header-content">
           <div class="seporater about-seporater"></div>
           <h2 class="header-title-about header-title-avtohim">Автомобильная химия</h2>
           <ul class="breadcrumbs">

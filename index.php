@@ -86,9 +86,9 @@
       <li class="header-nav-item">
         <a href="./about.php" class="header-nav-link">О компании</a></li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контрактное производство</a></li>
+        <a href="./contracts.php" class="header-nav-link">Контрактное производство</a></li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Собственные торговые марки</a></li>
+        <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a></li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Новости</a></li>
       <li class="header-nav-item">
@@ -287,9 +287,9 @@
   </section>
   <section class="section-trademark ">
     <div class="container">
-      <div class="seporater trademark-seporater">
-      </div>
-    <h2 class="section-title title-trademark">Собственные <span class="span-trademark">торговые</span> марки</h2>
+    <div class="seporater trademark-seporater">
+        </div>
+   <h2 class="section-title title-trademark">Собственные <span class="span-trademark">торговые</span> марки</h2>
     <div class="trademark-cards">
       <div class="trademark-card">
         <svg   class="trademark-card-logo">
@@ -314,6 +314,7 @@
     </div>
   </section>
   <!-- /.section trademark -->
+   
   <section class=" section founder">
     <img src="img/founder.jpg" alt="Founder" class="founder-photo">
     <div class="container">
