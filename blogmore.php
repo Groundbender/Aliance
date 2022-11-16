@@ -109,9 +109,9 @@
       <span class="button-text">Получить консультацию</span></button>  
         </nav>
         <!-- navbar -->
-       <header class=" page-header page-header-bg-image ">
+       <header class=" page-header-bg-image page-header  ">
         <div class="container">
-         <div class="blogmore-content">
+         <div class="page-header-content">
           <div class="seporater about-seporater"></div>
           <h2 class="header-title-about blogmore-title">Современная методология разработки одухотворила всех причастных</h2>
           <ul class="breadcrumbs">

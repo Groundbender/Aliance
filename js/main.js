@@ -129,6 +129,7 @@ const swiperBlog = new Swiper(".blog-slider", {
 let currentModal; // текущее модальное окно
 let modalDialog;  // белое диалоговое окно 
 let alertModal = document.querySelector("#alert-modal"); // окна с предупреждением
+let feedbackModal = document.querySelector("#feedback-modal"); // окна с предупреждением
 
 const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // переключатели модальных окон 
 modalButtons.forEach((button) => {
@@ -211,16 +212,18 @@ validation
       body: formData, 
 
       }).then((response) => {
-      if (response.ok ) {
+      if (response.ok  ) {
         thisForm.reset();
-        if ( currentModal.classList.contains("is-open" )) {
+        if (currentModal = feedbackModal) {
         currentModal.classList.remove("is-open");
         currentModal = alertModal;    
         alertModal.classList.add("is-open");
-        } else {
-          currentModal = alertModal;    
-          alertModal.classList.add("is-open");
-        };
+      } else {
+        thisForm.reset();
+        currentModal = alertModal;    
+        alertModal.classList.add("is-open");
+      }
+       
         modalDialog = currentModal.querySelector(".modal-dialog");
         /* отслеживаем клик по окну и пустым областям */
         currentModal.addEventListener("click", (event) => {
@@ -232,6 +235,7 @@ validation
       
           
         });
+        
       } else {
         alert( " Ошибка. Текст ошибки: " .response.statusText);
       }

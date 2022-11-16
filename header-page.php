@@ -89,7 +89,7 @@
       <li class="header-nav-item">
         <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a></li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Новости</a></li>
+        <a href="./blogmore.php" class="header-nav-link">Новости</a></li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Контакты</a></li>
     </ul>
@@ -111,11 +111,13 @@
         <!-- navbar -->
        <header class="page-header <?= $header_style ?>">
         <div class="container">
+          <div class="page-header-content">
           <div class="seporater about-seporater"></div>
           <h2 class=" header-title-about"><?= $page_title ?></h2>
           <ul class="breadcrumbs">
             <li class="breadcrumb"><a href="#" class="breadcrumb-link">Главная</a></li>
             <li class="breadcrumb"><a href="#" class="breadcrumb-link active"><?= $page_title ?></a></li>
           </ul>
+          </div>
         </div>
        </header>
