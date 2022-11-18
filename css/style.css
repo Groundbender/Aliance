@@ -1739,7 +1739,10 @@ color: #292D33;
   font-size: 14px;
 }
 .slider-button-prev, .slider-button-next {
-  padding-top: 10px;
+  padding-top: 4px;
+}
+.seporater-section-light {
+  margin-bottom: 20px;
 }
   .span-trademark {
     display: none;
@@ -1782,8 +1785,7 @@ color: #292D33;
     margin-left: -4px;
   }
   .header-title {
-    margin: 20px 0px -4px -5px;
-    letter-spacing: -0.7px;
+    margin: 18px 0px 0px -5px;
   }
   .header-button {
     padding: 1.625rem 3.75rem;
@@ -1794,23 +1796,25 @@ color: #292D33;
     height: 63px;
   }
   .section {
-    margin-top: 8.375rem;
-    margin-bottom:  8.375rem;
+    margin-top: 8.25rem;
+    margin-bottom:  8.25rem;
   }
   .section-title {
-    margin-top: -7px;
+    margin-top: 8px;
     margin-bottom: 20px;
     font-size: 2.8rem;
     margin-left: -3px;
+    letter-spacing: 1px;
   }
     
     .steps-num {
       font-size: 4rem;
-      margin-top: -6px;
     }
     .steps-title {
-      margin-top: -21px;
+      margin-top: -20px;
       white-space: nowrap;
+      letter-spacing: -0.9px;
+      margin-left: -2px;
     }
     .steps-buttons {
       margin-top: -13px;
@@ -1846,7 +1850,7 @@ color: #292D33;
      }
      .trademark-seporater {
       margin-top: -27px;
-      margin-bottom: 24px;
+      margin-bottom: 18px;
      }
      .trademark-cards {
       margin-top: 37px;
@@ -1868,7 +1872,7 @@ color: #292D33;
 
      }
      .trademark-card-title {
-      line-height: 134%;
+      line-height: 132%;
       margin-left: -57px;
      }
      .founder {
@@ -1889,7 +1893,7 @@ color: #292D33;
       margin-bottom: 29px;
      }
      .founder-photo {
-      top: -3px
+      top: 0px
      }
      
      .founder-content-wrapper{
@@ -1903,7 +1907,7 @@ color: #292D33;
      .second-paragraph {
       font-size: 14px;
       margin-left: -3px;
-      margin-top: 6px;
+      margin-top: 8px;
 
      }
      .founder-button-link {
@@ -1915,6 +1919,10 @@ color: #292D33;
      .founder-button-link-two {
       display: flex;
      }
+     .clients-seporater {
+      margin-bottom: 14px;
+    }
+     
      
      .clients-title {
       margin-bottom: none;
@@ -1934,10 +1942,10 @@ color: #292D33;
       margin-bottom: 95px;
      }
      .blog-seporater {
-     margin-bottom: 23px;   
+      margin-bottom: 18px
      }
      .blog-title {
-      letter-spacing: 0.3px;
+      
       word-spacing: 0;
      }
      .blog-slider {
@@ -1959,10 +1967,13 @@ color: #292D33;
       letter-spacing: 0.7px;
       width: 305px;
      }
+     .button-link {
+      padding-right: 8px;
+     }
      
      .section-cta {
       height: 574px;
-      padding-top: 94px ;
+      padding-top: 77px ;
       margin-top: 106px;
 
      }
