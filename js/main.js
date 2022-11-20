@@ -130,7 +130,8 @@ const swiperBlogAbout = new Swiper(".blog-slider-about", {
   slidesPerView: 2.5,
   initialSlide: 1,
   slidesOffsetBefore: 210,
-  spaceBetween: 30,
+  spaceBetween: 30, 
+  loop: true,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",

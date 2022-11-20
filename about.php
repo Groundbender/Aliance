@@ -27,7 +27,7 @@
   <div class="container">
       <div class="products-content-wrapper">
       <div class="products-content">
-      <div class="seporater"></div>
+      <div class="seporater products-seporater"></div>
             <h2 class="section-title products-title">Наше производство </h2>
              <img class="products-image" src="img/products-photo.jpg" alt="woman">
 
@@ -78,6 +78,8 @@
           </div>
   </div>
 </section>
+
+     <?php include_once("./template-parts/founder-block.php")?>
 
 
     <?php include_once('./template-parts/research-block.php');?>

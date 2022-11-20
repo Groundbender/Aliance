@@ -658,7 +658,6 @@ padding-right: 28px;
   padding: 3.125rem;
 }
 .blog-card-about {
-
   position: relative;
   min-height: 25rem;
 }
@@ -711,6 +710,7 @@ padding-right: 28px;
   justify-content: flex-end;
   margin-top: 1.625rem;
 }
+
 .bg-grey {
   background: #F0F2F5;
   
@@ -1277,6 +1277,10 @@ max-width: 100%;
   color: #292D33;
 
 }
+.section-products {
+  margin-bottom: 8.9375rem;
+
+}
 .products-content-wrapper {
  position: relative;
  left: 0;
@@ -1290,12 +1294,19 @@ max-width: 100%;
   right: 0;
   top: 0;
   max-height: 100%;
-  width: 40%;
+  width: 42%;
 
 
 }
 .products-content {
   max-width: 45rem;
+  padding-top: 46px;
+}
+.products-seporater {
+  margin-bottom: 25px;
+}
+.products-title {
+  margin-bottom: 29px;
 }
 .products-text {
   font-style: normal;
@@ -1303,6 +1314,10 @@ max-width: 100%;
   font-size: 16px;
   line-height: 160%;
   color: #828A99;
+  margin-bottom: 24px;
+}
+.products-text-second {
+  margin-top: 20px;
 }
 .products-list {
   list-style: none;
@@ -1320,11 +1335,18 @@ max-width: 100%;
   padding-bottom: 16px;
   padding-top: 4px;
 }
+.research-seporater {
+  margin-bottom: 27px;
+}
+
 .research-text-wrapper {
   display: flex;
   gap: 6.25rem;
-  margin-bottom: 3.125rem;
+  margin-bottom: 2.125rem;
 
+}
+.research-title {
+  margin-bottom: 14px;
 }
 .research-text {
   font-style: normal;
@@ -1332,9 +1354,11 @@ max-width: 100%;
   font-size: 16px;
   line-height: 160%;
   color: #828A99;
+  max-width: 635px;
 
 }
-.contracts-avtohim-wrapper {
+
+ .contracts-avtohim-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
