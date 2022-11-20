@@ -8,11 +8,19 @@
     <div class="experts-content-wrapper">
     <img src="img/him_experts.png" width="480" height="480" alt="him_experts_photo" class="experts"></img>
     <div class="experts-content">
-          <div class="seporater"></div>
+          <div class="seporater experts-seporater"></div>
             <h2 class="section-title experts-title">мы - эксперты в области производства химии </h2>
               <p class="experts-text">Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость поставленных обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые кластеры себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование играет важную роль в формировании системы массового участия.</p>
       </div>
       </div> 
+      
+      <?php
+       $slider_button_style = "slider-button-prev-about";
+      $header_features_color = "header-features-item-inside"; 
+      $border_color = "header-features-item-inside";
+      include_once("./template-parts/features-slider-block.php");?>
+
+    </div>
     </div>
 </section>
 <section class="section section-products">
@@ -70,5 +78,14 @@
           </div>
   </div>
 </section>
+
+
+    <?php include_once('./template-parts/research-block.php');?>
+ 
+  
+
+
+<?php include_once("./template-parts/client-block.php")?>
+
 
   <?php include_once('footer.php');?>

@@ -125,6 +125,20 @@ const swiperBlog = new Swiper(".blog-slider", {
   
   
 });
+const swiperBlogAbout = new Swiper(".blog-slider-about", {
+  speed: 400,
+  slidesPerView: 2.5,
+  initialSlide: 1,
+  slidesOffsetBefore: 210,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
+  },
+ 
+  
+  
+});
 
 let currentModal; // текущее модальное окно
 let modalDialog;  // белое диалоговое окно 

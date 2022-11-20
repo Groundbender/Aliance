@@ -28,7 +28,7 @@ body {
   color: white;
   height: 5.875rem;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   left:0;
   top: 0;
   z-index: 2;
@@ -211,22 +211,57 @@ z-index:0;
   padding: 0rem;
   margin-top: 6.25rem;
   list-style: none;
-  color: white;
   position: relative;
   margin-bottom: 0;
 }
+.header-features-front {
+ color: white;
+ 
+}
+.header-features-inside {
+  color: #292D33;
+}
+
+
 .header-features-item {
   padding: 1.75rem 3.125rem;
   height: auto;
+  color: inherit;
   border: 1px solid  rgba(235, 235, 240, 0.2);
   width: 18rem;
   
 }
+
+ .header-features-item-front {
+  border: 1px solid  rgba(235, 235, 240, 0.2);
+}
+ .header-features-item-inside {
+   border: 1px solid  #EBEBF0;
+}
 .slider-buttons {
   display: none;
   height: 48px;
+  
     
+}
+.slider-buttons {
+  display: none;
+  height: 48px;
+  
     
+}
+
+
+.slider-button-prev-about, .slider-button-next-about {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid  #EBEBF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  fill: #292D33;
+
 }
 .slider-button-prev, .slider-button-next {
   height: 100%;
@@ -236,6 +271,7 @@ z-index:0;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  fill: #fff;
 }
 .header-button {
   padding: 1.625rem 3.75rem;
@@ -359,6 +395,7 @@ max-width: 20.625rem;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  fill: #fff;
 }
 .steps-buttons {
   display: none;
@@ -620,6 +657,13 @@ padding-right: 28px;
   justify-content: flex-end;
   padding: 3.125rem;
 }
+.blog-card-about {
+
+  position: relative;
+  min-height: 25rem;
+}
+
+
 .blog-card::before {
   content:"";
   position: absolute;
@@ -661,6 +705,12 @@ padding-right: 28px;
   justify-content: space-between;
   margin-top: 1.625rem;
 }
+.blog-slider-footer-about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.625rem;
+}
 .bg-grey {
   background: #F0F2F5;
   
@@ -672,6 +722,8 @@ padding-right: 28px;
     padding-bottom: 6.25rem;
     height: 34.5rem;
 }
+
+
 .cta-image {
   position: absolute;
   left: 0;
@@ -1031,13 +1083,22 @@ max-width: 100%;
 
 .page-header {
   max-width: 100% ;
-  margin-top: 94px;
-  padding-top: 50px;
+  margin-top: 5.875rem;
+  padding-top: 3.125rem;
+  margin-bottom: 6.25rem;
  
 }
 .page-header-bg-grey {
   background-color: #F0F2F5;
   height: 16.875rem;
+}
+
+.page-header-bg-grey-image {
+  background-color: #F0F2F5;
+  height: 16.875rem;
+}
+.page-header-bg-grey-image .page-header-image {
+  display: block;
 }
 
 .about-seporater {
@@ -1060,11 +1121,14 @@ max-width: 100%;
   position:relative;
   z-index: 1;
 }
-.avtohim-image {
+.page-header-image {
   position:absolute;
   right: 240px;
   top: 123px;
   margin-left: 240px;
+}
+.page-header-bg-grey .page-header-image {
+  display: none;
 }
 
 
@@ -1100,6 +1164,25 @@ max-width: 100%;
   margin-top: 5px;
 }
 .page-header-bg-grey .breadcrumb-link.active {
+  color: #292D33;
+}
+.page-header-bg-grey-image .breadcrumb-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color:#828A99;
+}
+.page-header-bg-grey-image .breadcrumb:not(:last-child)::after {
+  display: block;
+  content: "";
+  background-color: #292D33;
+  height: 1px;
+  width: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.page-header-bg-grey-image .breadcrumb-link.active {
   color: #292D33;
 }
 
@@ -1162,6 +1245,9 @@ max-width: 100%;
   bottom: 0;
   z-index: 10;
 } */
+.section-experts {
+  margin-top: 6.25rem;
+}
 .experts-content-wrapper {
   display: flex;
   justify-content: space-between;
@@ -1169,6 +1255,9 @@ max-width: 100%;
 }
 .experts-content {
   max-width: 840px;
+}
+.experts-seporater {
+  margin-top: 0.5rem;
 }
 .experts-text {
   font-style: normal;
@@ -1180,10 +1269,12 @@ max-width: 100%;
 }
 .experts-title {
   font-style: normal;
-font-size: 60px;
-line-height: 120%;
-
-color: #292D33;
+  font-size: 60px;
+  line-height: 120%;
+  max-width: 37.5rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  color: #292D33;
 
 }
 .products-content-wrapper {
@@ -1228,6 +1319,20 @@ color: #292D33;
   color: #292D33;
   padding-bottom: 16px;
   padding-top: 4px;
+}
+.research-text-wrapper {
+  display: flex;
+  gap: 6.25rem;
+  margin-bottom: 3.125rem;
+
+}
+.research-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828A99;
+
 }
 .contracts-avtohim-wrapper {
   display: flex;
@@ -1320,6 +1425,94 @@ color: #292D33;
   height: 2px;
   background-color: #5C8EE5;  
 }
+.seo {
+  margin-top: 100px;
+
+}
+.seo-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  color: #292D33;
+  
+}
+.seo-text {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #828A99;
+
+}
+.seo-link {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #5C8EE6;
+  padding-left: 4px;
+  gap: 15px;
+  
+}
+.seo-front {
+  display: none;
+}
+.blog-articles-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+.article-blog-card {
+  flex-basis: 50%;
+}
+
+.blog-articles-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+.article-link {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+
+}
+
+.link-number {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #292D33;
+}
+.section-politics {
+  margin-top: 6.25rem;
+}
+.politics-text {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+
+color: #292D33;
+}
+.footer-seporater-top {
+  display: none;
+}
+.footer-seporater-politics {
+  display: block;
+}
+
+
 
 
 
@@ -1350,6 +1543,16 @@ color: #292D33;
     }
     .clients-logo-item:hover {
       filter: grayscale(0%);
+    }
+    .article-link:hover  {
+      border: 1px solid #5C8EE6;
+    
+    }
+    .article-link:hover .link-number {
+      color: #5C8EE6;
+    }
+    .article-link:hover  {
+      color: #5C8EE6;
     }
 
   }

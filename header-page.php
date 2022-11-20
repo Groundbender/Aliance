@@ -119,5 +119,6 @@
             <li class="breadcrumb"><a href="#" class="breadcrumb-link active"><?= $page_title ?></a></li>
           </ul>
           </div>
+          <img class="page-header-image" src="img/avto-him.png" alt="">
         </div>
        </header>
