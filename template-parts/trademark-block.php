@@ -1,4 +1,4 @@
-<section class="section-trademark ">
+<section class="section-trademark " >
     <div class="container">
     
     <?php 
@@ -8,7 +8,7 @@
     }
     ?>
     <!-- <h2 class="section-title title-trademark">Собственные <span class="span-trademark">торговые</span> марки</h2> -->
-    <div class="trademark-cards">
+    <div class="trademark-cards"  >
       <div class="trademark-card">
         <svg   class="trademark-card-logo">
           <use href="img/sprite.svg#AGTECH"></use>

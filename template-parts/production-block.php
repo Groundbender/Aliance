@@ -1,12 +1,15 @@
 
 
 
-<section class="section-production">
+<section class="section-production <?= $production_style_contracts ?>">
     <div class="container">
     <?php 
+
     if (!empty($block_title)) {
       echo '  <div class="seporater seporater-production"></div>';
-      echo '  <h2 class="section-title title-production">'. $block_title .'</h2>';
+      echo '  <h2 class="section-title title-production">'. $block_title .
+      
+      '</h2>';
     }
     ?>
     

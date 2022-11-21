@@ -13,6 +13,7 @@
   <title>Aliance Production</title>
 </head>
 <body class="front-page ">
+  <div class="page-wrapper-about">
   <div class="mobile-menu ">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
@@ -227,3 +228,4 @@
  
   
   <?php include_once('footer.php');?>
+  </div>

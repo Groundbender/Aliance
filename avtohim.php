@@ -9,24 +9,35 @@
           <div class="contracts-avtohim-wrapper">
             <img src="img/contracts avtohim.jpg" alt="Контрактное производство автомобильной химии" class="contracts-avtohim">
            <div class="contracts-avtohim-content">
-            <div class="seporater"></div>
-           <h2 class=" section-title">Контрактное производство автомобильной химии</h2>
-            <p class="contracts-avtohim-text">Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.
-          <p class="contracts-avtohim-text contracts-avtohim-second-text">
+            <div class="seporater contracts-avtohim-seporater"></div>
+           <h2 class=" section-title contracts-avtohim-title">Контрактное производство автомобильной химии</h2>
+            <p class="contracts-avtohim-text">Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.  <br>
+          <p class=" contracts-avtohim-second-text">
           Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
           </p> 
           </p>
            </div> 
           </div>
+          <?php
+       $slider_button_style = "slider-button-prev-about, slider-button-next-about";
+      $header_features_color = "header-features-item-inside"; 
+      $border_color = "header-features-item-inside";
+      include_once("./template-parts/features-slider-block.php");?>
+
         </div>
        </section>
+
+       
+
+
+
        <section class="section avtohim-production">
         <div class="container">
         <div class="avtohim-production-wrapper">
           <div class="avtohim-production-content">
             <div class="seporater"></div>
            
-            <h2 class="section-title"> Изготовление автохимии</h2>
+            <h2 class="section-title avtohim-production-title" > Изготовление автохимии</h2>
             <p class="avtohim-production-text">
             Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
             </p>
@@ -57,25 +68,25 @@
               </li>
               <li class="avtohim-production-item">
                 <svg width="30" height="30"  class="products-list-icon">
-                <use href="img/sprite.svg#him"></use>
+                <use href="img/sprite.svg#paints"></use>
                 </svg>
                 Лаки и краски
               </li>
               <li class="avtohim-production-item">
                 <svg width="30" height="30"  class="products-list-icon">
-                <use href="img/sprite.svg#paints"></use>
+                <use href="img/sprite.svg#him"></use>
                 </svg>
                 Химические производства
               </li>
               <li class="avtohim-production-item">
                 <svg width="30" height="30"  class="products-list-icon">
-                <use href="img/sprite.svg#him"></use>
+                <use href="img/sprite.svg#paints"></use>
                 </svg>
                 Лаки и краски
               </li>
               <li class="avtohim-production-item">
                 <svg width="30" height="30"  class="products-list-icon">
-                <use href="img/sprite.svg#paints"></use>
+                <use href="img/sprite.svg#him"></use>
                 </svg>
                 Химические производства
               </li>
@@ -89,7 +100,7 @@
         <section class="section avtohim-types">
           <div class="container">
           <div class="seporater"></div>
-            <h2 class="section-title">Виды автохимии </h2>
+            <h2 class="section-title avtohim-types-title">Виды автохимии </h2>
               <p class="avtohim-types-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.</p>
           
           <ul class="avtohim-types-list">
@@ -106,7 +117,7 @@
             Высокотемпературная смазка
             </li>
             <li class="avtohim-types-item">
-            Универсальный очиститель деталей
+            Универсальный очиститель <br> деталей
 
             </li>
             <li class="avtohim-types-item">
@@ -124,7 +135,7 @@
    
             </li>
             <li class="avtohim-types-item">
-            Очиститель кондиционера пенный
+            Очиститель кондиционера <br> пенный
 
             </li>
             <li class="avtohim-types-item">
@@ -139,11 +150,11 @@
 
             </li>
             <li class="avtohim-types-item">
-            Очиститель дросельной заслонки
+            Очиститель дросельной <br> заслонки
 
             </li>
             <li class="avtohim-types-item">
-            Очиститель обивки 
+            Очиститель  обивки 
 
             </li>
             <li class="avtohim-types-item">
@@ -173,6 +184,8 @@
 
         
 
-        <?php include_once("./template-parts/client-block.php")?>
+        <?php 
+        $client_section_inside = 'client-section-avtohim';
+        include_once("./template-parts/client-block.php")?>
        
        <?php include_once('footer.php');?>
