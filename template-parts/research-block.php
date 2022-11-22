@@ -1,4 +1,4 @@
-<section class="section section-research">
+<section class="section section-research <?= $section_research_avtohim ?>">
 <div class="page-wrapper">
 
   <div class="container">

@@ -1,5 +1,5 @@
 
-<section class="cta">
+<section class="cta <?= $footer_avtohim ?>">
     <div class="bg-grey section-cta">
       <img src="img/cta.png" alt="call to action" class="cta-image">
       <div class="cta-form-wrapper container">

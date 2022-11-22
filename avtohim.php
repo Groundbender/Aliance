@@ -35,9 +35,12 @@
         <div class="container">
         <div class="avtohim-production-wrapper">
           <div class="avtohim-production-content">
-            <div class="seporater"></div>
+            <div class="seporater avtohim-production-seporater"></div>
+           <h2 class="section-title avtohim-production-title" > Изготовление автохимии</h2>
            
-            <h2 class="section-title avtohim-production-title" > Изготовление автохимии</h2>
+
+
+            
             <p class="avtohim-production-text">
             Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
             </p>
@@ -91,8 +94,8 @@
                 Химические производства
               </li>
             </ul>
+            </div>
           </div>
-        </div>
         </div>
         <img src="img/avtohim-production-photo.jpg" alt="Производство автохимии фото" class="avtohim-production-photo">
        </section>
@@ -100,7 +103,7 @@
 
         <section class="section avtohim-types">
           <div class="container">
-          <div class="seporater"></div>
+          <div class="seporater avtohim-types-seporater"></div>
             <h2 class="section-title avtohim-types-title">Виды автохимии </h2>
               <p class="avtohim-types-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.</p>
           
@@ -118,7 +121,7 @@
             Высокотемпературная смазка
             </li>
             <li class="avtohim-types-item">
-            Универсальный очиститель <br> деталей
+            Универсальный очиститель <br class="desktop-space"> деталей
 
             </li>
             <li class="avtohim-types-item">
@@ -136,9 +139,10 @@
    
             </li>
             <li class="avtohim-types-item">
-            Очиститель кондиционера <br> пенный
+            Очиститель кондиционера <br class="desktop-space"> пенный
 
             </li>
+            
             <li class="avtohim-types-item">
             Очиститель тормозных дисков
             </li>
@@ -151,7 +155,7 @@
 
             </li>
             <li class="avtohim-types-item">
-            Очиститель дросельной <br> заслонки
+            Очиститель дросельной  <br class="desktop-space"> заслонки
 
             </li>
             <li class="avtohim-types-item">
@@ -180,7 +184,9 @@
           </ul>
           </div>
         </section>
-        <?php include_once('./template-parts/research-block.php');?>
+        <?php 
+        $section_research_avtohim = 'section-research-avtohim';
+        include_once('./template-parts/research-block.php');?>
         <?php include_once('./template-parts/section-light.php');?>
 
         
@@ -189,4 +195,6 @@
         $client_section_inside = 'client-section-avtohim';
         include_once("./template-parts/client-block.php")?>
        
-       <?php include_once('footer.php');?>
+       <?php 
+       $footer_avtohim = 'avtohim-footer';
+       include_once('footer.php');?>
