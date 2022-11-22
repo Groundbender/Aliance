@@ -16,13 +16,13 @@
   <div class="mobile-menu ">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">О компании</a>
+        <a href="./about.php" class="mobile-menu-link">О компании</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Контрактное производство</a>
+        <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
       <ul class="mobile-submenu">
         <li class="mobile-submenu-item">
-          <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+          <a class="mobile-submenu-link" href="./avtohim.php">Автомобильная химия</a>
         </li>
         <li class="mobile-submenu-item">
           <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -33,9 +33,9 @@
       </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Собственные торговые марки</a></li>
+        <a href="./trademarks.php" class="mobile-menu-link">Собственные торговые марки</a></li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Новости</a></li>
+        <a href=".blog.php" class="mobile-menu-link">Новости</a></li>
       <li class="mobile-menu-nav-item">
         <a href="#" class="mobile-menu-link">Контакты</a></li>
     </ul>
@@ -89,7 +89,7 @@
       <li class="header-nav-item">
         <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a></li>
       <li class="header-nav-item">
-        <a href="./blogmore.php" class="header-nav-link">Новости</a></li>
+        <a href="./blog.php" class="header-nav-link">Новости</a></li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Контакты</a></li>
     </ul>
