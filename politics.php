@@ -1,6 +1,6 @@
 <?php
-  $page_title = 'Политика конфиденциальности';
-  $header_style = "page-header-bg-grey";
+  $page_title = 'Политика конфиденциально<span class="politics-mobile-title">сти</span>';
+  $header_style = "page-header-bg-grey"; 
   include_once('header-page.php');?>
     <section class="section section-politics">
       <div class="container">

@@ -2831,10 +2831,20 @@ max-width: 47rem;
       .blog-articles-wrapper .blog-card {
         padding: 109px 24px 3px 14px;
       }
-        /* avtohim  */
-        .avtohim-types-list {
-          columns: 1 auto;
-          max-width: none;
+       /* politics  */
+       .section-politics {
+        margin-top: -1.75rem;
+       }       
+       
+       .politics-mobile-title {
+        display: inline-block;
+       }
+       .p1, .p2, .p3, .p4, .p5, .p6 {
+        font-size: 14px;
+        line-height: 155%;
+        margin-bottom: 11px;
+        margin-right: -4px;
+        margin-left: -3px;
     }
     
 }
