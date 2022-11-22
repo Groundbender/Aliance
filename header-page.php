@@ -111,7 +111,7 @@
         <!-- navbar -->
        <header class="page-header <?= $header_style ?> <?= $page_header_trademark ?>">
         <div class="container">
-          <!-- <div class="page-header-content"> -->
+          <div class="page-header-content">
           <div class="seporater about-seporater"></div>
           <h2 class=" header-title-about"><?= $page_title ?></h2>
           <ul class="breadcrumbs">
@@ -119,7 +119,7 @@
             <li class="breadcrumb breadcrumb-hidden"><a href="#" class="breadcrumb-link ">Контрактное производство</a></li>
             <li class="breadcrumb"><a href="#" class="breadcrumb-link active"><?= $page_title ?></a></li>
           </ul>
-          <!-- </div> -->
+          </div>
           <img class="page-header-image" src="img/avto-him.png" alt="">
         </div>
        </header>
