@@ -7,7 +7,7 @@
        <section class="section section-contracts-avtohim">
         <div class="container">
           <div class="contracts-avtohim-wrapper">
-            <img src="img/contracts avtohim.jpg" alt="Контрактное производство автомобильной химии" class="contracts-avtohim">
+            <img src="img/contracts avtohim.jpg" alt="Контрактное производство автомобильной химии" class="contracts-avtohim-image">
            <div class="contracts-avtohim-content">
             <div class="seporater contracts-avtohim-seporater"></div>
            <h2 class=" section-title contracts-avtohim-title">Контрактное производство автомобильной химии</h2>
@@ -93,9 +93,10 @@
             </ul>
           </div>
         </div>
+        </div>
         <img src="img/avtohim-production-photo.jpg" alt="Производство автохимии фото" class="avtohim-production-photo">
        </section>
-        </div>
+        
 
         <section class="section avtohim-types">
           <div class="container">

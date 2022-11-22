@@ -135,24 +135,7 @@
   </header>
 
   <?php include_once("./template-parts/section-light.php");?>
-      </div>
-      <div class="steps-buttons primary-buttons-wrapper">
-        <div class="steps-button-prev primary-button-prev">  
-          <svg   width="36" height="24">
-            <use href="img/sprite.svg#arrow-prev"></use>
-          </svg>
-      </div>
-        <div class="steps-button-next primary-button-next">
-          <svg   width="36" height="24">
-            <use href="img/sprite.svg#arrow-next"></use>
-          </svg>
-        </div>
-      </div>
-
     
-    </div>
-    <!-- container -->
-  </section>
   
   <?php $block_title = "контрактное производство";
   $seo_style = "seo-front"; 

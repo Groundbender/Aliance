@@ -1441,7 +1441,6 @@ max-width: 100%;
 }
 .avtohim-production-wrapper {
   display: flex;
-  align-items: center;
 }
 .avtohim-production-content {
   max-width: 45rem;
@@ -1466,6 +1465,7 @@ max-width: 100%;
   right: 0;
   top: 0;
   max-width: 52.5rem;
+  object-fit: cover;
 }
 .avtohim-production-list {
   list-style: none;
@@ -1578,6 +1578,17 @@ margin-top: -1.0625rem;
   flex-basis: 50%;
   max-width: 44.0625rem;
 }
+.blog-card-title-mobile {
+  font-style: normal;
+  line-height: 160%;
+  font-weight: 400;
+  font-size: 1.75rem;
+ 
+  margin-bottom: 16px;
+  display: none;
+}
+
+
 
 .blog-articles-footer {
   display: flex;
@@ -1698,7 +1709,15 @@ width: 100vw;
   .header-image {
     background-position: center;
    }
-  }
+   .page-header-bg-grey-image .page-header-image {
+    height: 80%;
+}
+.article-blog-card {
+  max-width: none;
+  flex-basis: 46%;
+}
+
+}
 
 @media ( max-width:1530px) {
   html { 
@@ -1748,8 +1767,18 @@ width: 100vw;
    .products-content-wrapper {
     grid-template-columns: 37rem;
    }
+   .avtohim-production-photo {
+    max-width: 47.5rem;
+}
+.contracts-avtohim-wrapper {
+  gap: 3.5rem;
 
    
+}
+.contracts-avtohim-image {
+  max-width: 50%;
+}
+
 }
 @media ( max-width:1200px) {
   .container {
@@ -1823,7 +1852,22 @@ width: 100vw;
    .products-image {
     max-width: 31.25rem;
    }
+   .avtohim-production-content {
+    max-width: 34rem;
+  } 
+  .avtohim-production-photo {
+    max-width: 37.5rem;
+  }
+  .avtohim-types-list {
+    max-width: 68rem;
+  }
+  
+  .page-header-bg-grey-image .page-header-image {
+    height: 60%;
+
+  }
 }
+
 @media ( max-width:992px){
   html {
     font-size: 12px;
@@ -2023,11 +2067,40 @@ width: 100vw;
   grid-row-gap: 5.25rem;
   grid-column-gap: 1.5rem;
  }
- .products-image {
-  max-width: 31.25rem;
+ .page-header-bg-grey-image .page-header-image {
+  display: none;
+}
+
+.contracts-avtohim-image {
+  max-width: 100%;
+}
+.products-image {
+  width: 100%;
+  position: relative;
  }
-
-
+ .contracts-avtohim-wrapper {
+  flex-direction: column;
+ }
+ .contracts-avtohim-content {
+  max-width: 100%;
+}
+.avtohim-types-list {
+columns: 2 auto;
+max-width: 47rem;
+}
+.avtohim-production-content {
+  max-width: 100%;
+}
+.avtohim-production-photo {
+  position: relative;
+  left: 0;
+  max-width: 100%;
+  top: 0;
+  object-fit: cover;
+}
+.avtohim-types {
+  margin-top: 44.375rem;
+}
 }
 @media (max-width: 768px) {
   .container {
@@ -2097,13 +2170,15 @@ width: 100vw;
         "image"
          "text"       ;
  }
- .products-image {
-  max-width: 100%;
- }
+ 
  .research-text-wrapper {
   flex-direction: column;
   gap: 0;
 
+ }
+ .article-blog-card {
+  min-height: 12.1875rem;
+  padding: 103px 20px 0px 20px;
  }
 
 
@@ -2351,6 +2426,7 @@ width: 100vw;
       letter-spacing: 0.7px;
       width: 305px;
      }
+     
      .button-link {
       padding-right: 8px;
      }
@@ -2686,9 +2762,81 @@ width: 100vw;
     .blog-card-about {
       min-height: 195px;
      }
+
+
+     /* blog  */
+
+     .blog-articles-wrapper {
+      gap: 10px;
+       
+     }
+     .article-blog-card {
+      flex-basis: 100%;
+     }
+     .blog-card-dark .blog-card-title {
+      display: none;
+     }
+     .blog-card-title-mobile {
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      line-height: 132%;
+      margin-top: 0px;
+      letter-spacing: 0.7px;
+      width: 305px;
+      display: block;
+     }
      
+     .article-blog-card:nth-child(1) {
+      order: 2;
+     }
+     .article-blog-card:nth-child(2) {
+      order: 1;
+     }
+     .article-blog-card:nth-child(3) {
+      order: 3;
+     }
+     .article-blog-card:nth-child(4) {
+      order: 4;
+     }
+     .article-blog-card:nth-child(5) {
+      order: 6;
+     }
+     .article-blog-card:nth-child(6) {
+      order: 5;
+     }
+     .article-blog-card:nth-child(7) {
+      order: 7;
+     }
+     .article-blog-card:nth-child(8) {
+      order: 8;
+     }
+     .article-blog-card:nth-child(9) {
+      order: 10;
+     }
+     .article-blog-card:nth-child(10) {
+      order: 9;
+     }
+     .blog-articles-footer {
+      justify-content: center;
+      margin-top: 53px;
+     }
+      .articles-link-wrapper {
+        margin-right: -18px;
+       
+
+      }
+      .section-articles {
+        margin-bottom: -5px;
+        }
+      .blog-articles-wrapper .blog-card {
+        padding: 109px 24px 3px 14px;
+      }
+        /* avtohim  */
+        .avtohim-types-list {
+          columns: 1 auto;
+          max-width: none;
     }
     
-
+}
 
 
