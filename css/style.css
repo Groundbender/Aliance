@@ -1573,7 +1573,7 @@ margin-top: -1.0625rem;
   color: #5C8EE6;
   padding-left: 4px;
   gap: 15px;
-  transition: transform 0.8s ease ;
+  transition: transform 0.8s ease ease ;
   
 }
 .icon-load {
@@ -1622,6 +1622,15 @@ margin-top: -1.0625rem;
   align-items: center;
   justify-content: center;
   border: 1px solid transparent;
+
+}
+.article-third-link {
+  margin-left: -7px;
+    margin-right: -9px;
+
+}
+.article-second-link {
+  margin-left: 19px;
 
 }
 
@@ -2715,7 +2724,7 @@ max-width: 47rem;
       
     }  
     .experts-img {
-      width: 345px;
+      width: 100%;
       height: 345px;
   }
   .experts-content {
@@ -3026,4 +3035,12 @@ max-width: 47rem;
   margin-top: -7px;
 
 }
+}
+@media (max-width: 350px) {
+  .article-blog-card {
+    max-width: 100%; 
+   
+    
+  } 
+ 
 }
