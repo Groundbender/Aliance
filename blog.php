@@ -90,8 +90,8 @@
     <div class="blog-articles-footer">
       <div class="articles-link-wrapper">
       <div class="article-link active"><a href="#" class="link-number">1</a></div>
-      <div class="article-link"><a href="#" class="link-number">2</a></div>
-      <div class="article-link"><a href="#" class="link-number">3</a></div>
+      <div class="article-link article-second-link"><a href="#" class="link-number">2</a></div>
+      <div class="article-link article-third-link"><a href="#" class="link-number">3</a></div>
       <div class="article-link"><a href="#" class="link-number">4</a></div>
       <div class="article-link"><a href="#" class="link-number">5</a></div>
       </div>
