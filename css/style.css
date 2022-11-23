@@ -1573,8 +1573,14 @@ margin-top: -1.0625rem;
   color: #5C8EE6;
   padding-left: 4px;
   gap: 15px;
+  transition: transform 0.8s ease ;
   
 }
+.icon-load {
+  transition: transform 0.8s ease-in-out;
+}
+
+
 .seo-front {
   display: none;
 }
@@ -1709,7 +1715,21 @@ width: 100vw;
     .article-link:hover  {
       color: #5C8EE6;
     }
+    .seo-link:hover .icon-load {
+      transform: rotate(360deg);
+     
+    }
+    .seo-link:hover  {
+      gap: 18px
+    }
 
+  }
+  @media ( max-width: 1820px) {
+    .products-content-wrapper {
+      
+      grid-template-columns: 41rem auto;
+      grid-column-gap: 2.5rem;
+    }
   }
   @media ( max-width: 1750px) {
   html { 
@@ -1743,7 +1763,10 @@ width: 100vw;
    .header-phone {
     margin-right: .625rem;
    }
+   .products-content-wrapper {
+    grid-template-columns: 34rem auto;
 
+}
 }
 @media ( max-width:1460px){
   html { 
@@ -1787,6 +1810,10 @@ width: 100vw;
 }
 .contracts-avtohim-image {
   max-width: 50%;
+}
+.products-content-wrapper {
+  grid-template-columns: 27rem auto;
+
 }
 
 }
