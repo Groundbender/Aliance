@@ -15,7 +15,7 @@
           А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.
          </span>
         </p>
-          <a href="#" class="button-link founder-button-link  <?= $founder_link_style ?>"><span class=" founder-button-link-one">Подробнее о компании</span> <span class=" founder-button-link-two">О нашей миссии
+          <a href="./about.php" class="button-link founder-button-link  <?= $founder_link_style ?>"><span class=" founder-button-link-one">Подробнее о компании</span> <span class=" founder-button-link-two">О нашей миссии
           </span></a>
         </div>
       </div>

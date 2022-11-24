@@ -69,7 +69,7 @@
               </li>
               <li class="avtohim-production-item">
                 <svg width="30" height="30"  class="products-list-icon">
-                <use href="img/sprite.svg#paints"></use>
+                <use href="img/sprite.svg#auto"></use>
                 </svg>
                 Актуальные цены
               </li>

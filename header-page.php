@@ -57,10 +57,10 @@
         a.dragunov@tdaliance.ru
       </a>
     </div>
-   <a href="#"> <svg class="vk-icon"  width="24" height="24">
+   <a href="#" target="_blank"> <svg class="vk-icon"  width="24" height="24" >
     <use href="img/sprite.svg#Vector"></use>
   </svg></a>
-  <a href="#"><svg class="inst-icon"  width="24" height="24">
+  <a href="#" target="_blank"><svg class="inst-icon"  width="24" height="24">
     <use href="img/sprite.svg#inst"></use>
   </svg></a>
   </div>

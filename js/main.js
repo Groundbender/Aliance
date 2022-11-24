@@ -107,6 +107,7 @@ const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
   slidesPerView: 2,
   spaceBetween: 30,
+  slidesOffsetAfter: 23,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
@@ -129,8 +130,8 @@ const swiperBlogAbout = new Swiper(".blog-slider-about", {
   speed: 400,
   slidesPerView: 2,
   initialSlide: 1,
-  loop: true,
   spaceBetween: 30,
+  
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
@@ -138,7 +139,6 @@ const swiperBlogAbout = new Swiper(".blog-slider-about", {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      spaceBetween: 10,
       slidesPerView: 1,
     },
     // when window width is >= 480px
@@ -169,6 +169,7 @@ modalButtons.forEach((button) => {
     currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
 
     
+    
     /* назначаем текущее диалоговое окно */
     modalDialog = currentModal.querySelector(".modal-dialog");
     /* отслеживаем клик по окну и пустым областям */
@@ -177,11 +178,18 @@ modalButtons.forEach((button) => {
       if (!event.composedPath().includes(modalDialog)) {
         /* закрываем окно */
         currentModal.classList.remove("is-open");
+        currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
+
+      
         
       }
+    
 
+
+      
     });
-  });  
+      }); 
 });
 /* ловим событие нажатие на кнопки */
 document.addEventListener("keyup", (event) => {

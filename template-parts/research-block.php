@@ -17,7 +17,7 @@
     <div class="swiper blog-slider-about">
 
 <!-- Additional required wrapper -->
-<div class="swiper-wrapper">
+<div class="swiper-wrapper article-blog-wrapper">
   <!-- Slides -->
   <a href="#"  class="swiper-slide blog-card-about">
     

@@ -11,7 +11,7 @@
      <div class="seporater trademark-seporater  <?= $trademark_title ?>"></div>
     <h2 class="section-title title-trademark <?= $trademark_title ?>">Собственные <span class="span-trademark">торговые</span> марки</h2>
     <div class="trademark-cards"  >
-      <div class="trademark-card">
+      <a href="./avtohim.php" class="trademark-card">
         <svg   class="trademark-card-logo">
           <use href="img/sprite.svg#AGTECH"></use>
         </svg>
@@ -19,8 +19,8 @@
         <p class="trademark-card-text">
           Для современного мира разбавленное <br> изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.
         </p>
-      </div>
-      <div class="trademark-card">
+    </a>
+      <a href="#" class="trademark-card">
         <svg   class="trademark-card-logo">
           <use href="img/sprite.svg#AP"></use>
         </svg>
@@ -28,7 +28,7 @@
         <p class="trademark-card-text">
           Для современного мира разбавленное <br> изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.
         </p>
-      </div>
+      </a>
     </div>
     <!-- /.trademark-cards -->
     </div>

@@ -13,7 +13,7 @@
             <span class="steps-num">01</span>
             <h3 class="steps-title">  Знакомство</h3>
             <p class="steps-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-            <a href="#" class="button-link">Оставить заявку</a>
+            <a href="#cta" class="button-link">Оставить заявку</a>
           </li>
           <li class="swiper-slide steps-item"> 
             <span class="steps-num">02</span>

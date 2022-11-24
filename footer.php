@@ -1,5 +1,5 @@
 
-<section class="cta <?= $footer_avtohim ?>">
+<section class="cta <?= $footer_avtohim ?>" id="cta">
     <div class="bg-grey section-cta">
     <picture>
   <source type="image/webp" srcset="img/cta.webp">
