@@ -265,6 +265,8 @@ validation
           if (!event.composedPath().includes(modalDialog)) {
             /* закрываем окно */
             currentModal.classList.remove("is-open");
+      currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
           }
       
           
@@ -273,7 +275,6 @@ validation
       } else {
         alert( " Ошибка. Текст ошибки: " .response.statusText);
       }
-      currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
 
       });
     };
