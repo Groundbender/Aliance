@@ -128,7 +128,7 @@
       <source   type="image/jpeg" srcset="img/thanks.png">
       <img class= "modal-image" src="img/thanks.png" alt="thanks">
         </picture>
-        <img class= "modal-image" src="img/thanks.png" alt="thanks">
+        
         <h2 class="modal-title">Спасибо за заявку</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="phone-icon"  width="24" height="24">
