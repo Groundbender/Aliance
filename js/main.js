@@ -264,8 +264,8 @@ validation
           /* если клик в пустую область (не диалоговое окно) */
           if (!event.composedPath().includes(modalDialog)) {
             /* закрываем окно */
-            currentModal.classList.remove("is-open");
-      currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+            currentModal.classList.toggle("is-open");
+            currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
 
           }
       
