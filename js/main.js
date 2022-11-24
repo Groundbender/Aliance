@@ -252,10 +252,14 @@ validation
         currentModal.classList.remove("is-open");
         currentModal = alertModal;    
         alertModal.classList.add("is-open");
+        currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+        
       } else {
         thisForm.reset();
         currentModal = alertModal;    
         alertModal.classList.add("is-open");
+        currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+        
       }
        
         modalDialog = currentModal.querySelector(".modal-dialog");
@@ -265,8 +269,8 @@ validation
           if (!event.composedPath().includes(modalDialog)) {
             /* закрываем окно */
             currentModal.classList.toggle("is-open");
+            
             currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
-
           }
       
           
