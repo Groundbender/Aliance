@@ -20,32 +20,51 @@
 <div class="swiper-wrapper">
   <!-- Slides -->
   <a href="#"  class="swiper-slide blog-card-about">
-  <img src="img/blog-photo.jpg" 
-  alt="" 
-  class="blog-card-image">
     
+  <picture   >
+      <source   type="image/webp" srcset="img/blog-photo.webp">
+      <source   type="image/jpeg" srcset="img/blog-photo.jpg">
+      <img src="img/blog-photo.jpg" 
+    alt="Карточка блога" 
+    class="blog-card-image">
+        </picture>
   </a>
   <a href="#" class="swiper-slide blog-card-about">
+  <picture   >
+      <source   type="image/webp" srcset="img/blog-photo2.webp">
+      <source   type="image/jpeg" srcset="img/blog-photo2.jpg">
       <img src="img/blog-photo2.jpg" 
-      alt="" 
-      class="blog-card-image">
+    alt="Карточка блога 2" 
+    class="blog-card-image">
+        </picture>
   </a>
   <a href="#" class="swiper-slide blog-card-about">
-    <img src="img/blog-photo.jpg" 
-    alt="" 
+  <picture   >
+      <source   type="image/webp" srcset="img/blog-photo.webp">
+      <source   type="image/jpeg" srcset="img/blog-photo.jpg">
+      <img src="img/blog-photo.jpg" 
+    alt="Карточка блога" 
     class="blog-card-image">
+        </picture>
+  </a>
+  <a href="#" class="swiper-slide blog-card-about">
+  <picture   >
+      <source   type="image/webp" srcset="img/blog-photo.webp">
+      <source   type="image/jpeg" srcset="img/blog-photo.jpg">
+      <img src="img/blog-photo.jpg" 
+    alt="Карточка блога" 
+    class="blog-card-image">
+        </picture>
       
   </a>
   <a href="#" class="swiper-slide blog-card-about">
-    <img src="img/blog-photo.jpg" 
-    alt="" 
+  <picture   >
+      <source   type="image/webp" srcset="img/blog-photo.webp">
+      <source   type="image/jpeg" srcset="img/blog-photo.jpg">
+      <img src="img/blog-photo.jpg" 
+    alt="Карточка блога" 
     class="blog-card-image">
-      
-  </a>
-  <a href="#" class="swiper-slide blog-card-about">
-    <img src="img/blog-photo.jpg" 
-    alt="" 
-    class="blog-card-image">
+        </picture>
       
   </a>
 

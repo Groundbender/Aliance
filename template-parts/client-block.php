@@ -71,31 +71,68 @@
       <!-- clients-content  -->
       <div class="clients-logo-list">
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+        <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
+          
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo"> 
+        <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+        <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+          <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+          <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+          <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+          <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+          <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="img/client.png" alt="" class="clients-logo">
+          <picture   >
+      <source   type="image/webp" srcset="img/client.webp">
+      <source   type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png"  alt=" Логотип" class="clients-logo">
+        </picture>
         </a>
       </div>
       <!-- /.clients-logo -->

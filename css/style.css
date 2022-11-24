@@ -533,6 +533,12 @@ padding-right: 28px;
     object-fit: cover;
 
 }
+/* img[src="img/founder.jpg"][ alt="Founder"] {
+  width: 52.5rem;
+  height: 41.25rem;
+} */
+
+
 
 .founder-content {
   max-width: 45rem ;
@@ -1332,6 +1338,7 @@ max-width: 100%;
 }
 .products-image {
   grid-area: image;
+  max-width: 37.5rem;
 }
 
 
@@ -1359,6 +1366,8 @@ max-width: 100%;
   list-style: none;
   padding: 0;
   columns: 2 auto;
+  width: 44rem;
+
 }
 .products-list-item {
   display: flex;
@@ -1733,13 +1742,8 @@ width: 100vw;
     }
 
   }
-  @media ( max-width: 1820px) {
-    .products-content-wrapper {
-      
-      grid-template-columns: 41rem auto;
-      grid-column-gap: 2.5rem;
-    }
-  }
+  
+  
   @media ( max-width: 1750px) {
   html { 
    font-size: 14px;
@@ -1772,10 +1776,9 @@ width: 100vw;
    .header-phone {
     margin-right: .625rem;
    }
-   .products-content-wrapper {
-    grid-template-columns: 34rem auto;
+   
 
-}
+
 }
 @media ( max-width:1460px){
   html { 
@@ -1806,9 +1809,7 @@ width: 100vw;
    .footer-logo {
     width: 10rem;
    }
-   .products-content-wrapper {
-    grid-template-columns: 37rem;
-   }
+ 
    .avtohim-production-photo {
     max-width: 47.5rem;
 }
@@ -1820,10 +1821,8 @@ width: 100vw;
 .contracts-avtohim-image {
   max-width: 50%;
 }
-.products-content-wrapper {
-  grid-template-columns: 27rem auto;
 
-}
+
 
 }
 @media ( max-width:1200px) {
@@ -1893,9 +1892,10 @@ width: 100vw;
     top: 50px;
   }
   .products-content-wrapper {
-    grid-template-columns: 29rem;
-   }
-   .products-image {
+    
+    grid-column-gap: 1.5rem;
+  }
+  .products-image {
     max-width: 31.25rem;
    }
    .avtohim-production-content {
@@ -2765,6 +2765,7 @@ max-width: 47rem;
     list-style: none;
     padding: 0;
     columns: 1 auto;
+    max-width: 100%;
 }
 .products-list-item {
   display: flex;

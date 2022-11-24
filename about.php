@@ -8,7 +8,12 @@
 <section class="section section-experts">
   <div class="container">
     <div class="experts-content-wrapper">
-    <img src="img/him_experts.png"  alt="him_experts_photo" class="experts-img"></img>
+    <picture   >
+      <source   type="image/webp" srcset="img/him_experts.webp"> 
+      <source   type="image/jpeg" srcset="img/him_experts.png">
+      <img src="img/him_experts.png"  alt="him_experts_photo" class="experts-img">
+        </picture>
+    
     <div class="experts-content">
           <div class="seporater experts-seporater"></div>
             <h2 class="section-title experts-title">мы - эксперты в области производства химии </h2>
@@ -34,9 +39,14 @@
           <div class="seporater products-seporater"></div>
             <h2 class="section-title products-title">Наше производство </h2>
         </div>
+        <picture   >
+      <source   type="image/webp" srcset="img/products-photo.webp"> 
+      <source   type="image/jpeg" srcset="img/products-photo.jpg">
+      <img class="products-image" src="img/products-photo.jpg" alt="woman">
+        </picture>
             
     
-    <img class="products-image" src="img/products-photo.jpg" alt="woman">
+    
             
             
             

@@ -21,43 +21,75 @@
       <h3 class="card-title ">Автомобильная химия</h3>
       <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
      </div >
-      <img src="img/Production_img/avto-him.png" alt="Автомобильная химия" class="card-image">
+     <picture >
+      <source   type="image/webp" srcset="img/Production_img/home-him.webp">
+      <source   type="image/jpeg" srcset="img/Production_img/home-him.png">
+      <img src=" img/Production_img/home-him.png" alt="Автомобильная химия" class="card-image card-image-less">
+        </picture>
+       
+      
     </a>
     <a href="#" class="card">
       <div class="card-content">
         <h3 class="card-title">Бытовая химия</h3>
       <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
       </div>
+      <picture >
+      <source   type="image/webp" srcset="img/Production_img/automobile-him.webp">
+      <source   type="image/jpeg" srcset="img/Production_img/automobile-him.png">
+      <img src=" img/Production_img/automobile-him.png" alt="Бытовая химия" class="card-image card-image-less">
+        </picture>
       
-      <img src="img/Production_img/Без имени-2 1.png" alt="Бытовая химия" class="card-image ">
     </a>
     <a href="#" class="card">
       <div class="card-content card-content-detergents ">
         <h3 class="card-title"  >Дезинфицирующие средства</h3>
         <p class="card-text">Лишь интерактивные прототипы <br>   призваны к ответу.</p>
       </div>
-     <img src=" img/Production_img/5dd4c227c7dc6914837490 1.png" alt="Дезинфецирующие средства" class="card-image card-image-less">
+      <picture   >
+      <source   type="image/webp" srcset="img/Production_img/detergent.webp">
+      <source   type="image/jpeg" srcset="img/Production_img/detergent.png">
+      <img src=" img/Production_img/detergent.png" alt="Дезинфецирующие средства" class="card-image card-image-less">
+        </picture>
+    
     </a>
     <a href="#" class="card">
       <div class="card-content">
         <h3 class="card-title">Пищевые аэрозоли</h3>
       <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
       </div>
-      <img src="img/Production_img/5dd4c227c7dc6914837490 1.png" alt="Пищевые аэрозоли" class="card-image card-image-less">
+      <picture   >
+      <source   type="image/webp" srcset="img/Production_img/detergent.webp">
+      <source   type="image/jpeg" srcset="img/Production_img/detergent.png">
+      <img src="img/Production_img/detergent.png" alt="Пищевые аэрозоли" class="card-image card-image-less">
+        </picture>
+     
     </a>
     <a href="#" class="card">
       <div class="card-content">
         <h3 class="card-title">Косметическая продукция</h3>
       <p class="card-text">Лишь интерактивные прототипы <br> призваны к ответу.</p>
       </div>
-      <img src="img/Production_img/avto-him.png" alt="Косметическая продукция" class="card-image">
+      <picture   >
+      <source   type="image/webp" srcset="img/Production_img/home-him.webp">
+      <source   type="image/jpeg" srcset="img/Production_img/home-him.png">
+      <img src=" img/Production_img/home-him.png" alt="Косметическая продукция" class="card-image">
+        </picture>
+      
+      
     </a>
     <a href="#" class="card">
       <div class="card-content">
         <h3 class="card-title">Краски аэрозольные</h3>
       <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
       </div>
-      <img src=" img/Production_img/Без имени-2 1.png" alt="Краски аэрозольные" class="card-image">
+      <picture   >
+      <source   type="image/webp" srcset="img/Production_img/automobile-him.webp">
+      <source   type="image/jpeg" srcset="img/Production_img/automobile-him.png">
+      <img src="img/Production_img/automobile-him.png" alt="Краски аэрозольные" class="card-image">
+        </picture>
+      
+    
     </a>
   </div>
   <!-- /.cards -->
