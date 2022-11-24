@@ -1,4 +1,4 @@
-<section class="section clients clients-section <?= $client_section_inside?>">
+<section class="section clients clients-section <?= $client_section_inside?> <?= $client_section_about?>">
     <div class="container"> 
       <div class="seporater clients-seporater"></div>
       <div class="clients-wrapper">

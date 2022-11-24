@@ -24,7 +24,7 @@
      <picture >
       <source   type="image/webp" srcset="img/Production_img/home-him.webp">
       <source   type="image/jpeg" srcset="img/Production_img/home-him.png">
-      <img src=" img/Production_img/home-him.png" alt="Автомобильная химия" class="card-image card-image-less">
+      <img src=" img/Production_img/home-him.png" alt="Автомобильная химия" class="card-image">
         </picture>
        
       
@@ -37,7 +37,7 @@
       <picture >
       <source   type="image/webp" srcset="img/Production_img/automobile-him.webp">
       <source   type="image/jpeg" srcset="img/Production_img/automobile-him.png">
-      <img src=" img/Production_img/automobile-him.png" alt="Бытовая химия" class="card-image card-image-less">
+      <img src=" img/Production_img/automobile-him.png" alt="Бытовая химия" class="card-image ">
         </picture>
       
     </a>

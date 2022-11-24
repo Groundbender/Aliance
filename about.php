@@ -114,7 +114,9 @@
   
 
 
-<?php include_once("./template-parts/client-block.php")?>
+<?php 
+$client_section_about = "clients-section-about";
+include_once("./template-parts/client-block.php")?>
 
 
   <?php include_once('footer.php');?>

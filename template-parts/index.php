@@ -141,7 +141,7 @@
   include_once("./template-parts/production-block.php")?>
 
 
-  <?php   
+  <?php $block_title = "собственные торговые марки"; 
   include_once("./template-parts/trademark-block.php")?>
    
   

@@ -1,13 +1,15 @@
-<section class="section-trademark " >
+<section class="section-trademark <?= $trademark_inside ?>" >
     <div class="container">
     
     <?php 
-    if (!empty($block_title)) {
-      echo ' <div class="seporater trademark-seporater"></div>';
-      echo ' <h2 class="section-title title-trademark">'. $block_title .'</h2>';
-    }
+    // if (!empty($block_title)) {
+    //   echo ' <div class="seporater trademark-seporater"></div>';
+    //   echo ' <h2 class="section-title title-trademark">'. $block_title .'</h2>';
+    // }
+
     ?>
-    <!-- <h2 class="section-title title-trademark">Собственные <span class="span-trademark">торговые</span> марки</h2> -->
+     <div class="seporater trademark-seporater  <?= $trademark_title ?>"></div>
+    <h2 class="section-title title-trademark <?= $trademark_title ?>">Собственные <span class="span-trademark">торговые</span> марки</h2>
     <div class="trademark-cards"  >
       <div class="trademark-card">
         <svg   class="trademark-card-logo">
