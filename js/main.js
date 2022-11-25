@@ -257,8 +257,8 @@ validation
       } else {
         thisForm.reset();
         currentModal = alertModal;    
-        alertModal.classList.add("is-open");
-        currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+        currentModal.classList.add("is-open");
+        
         
       }
        
@@ -272,7 +272,7 @@ validation
             
             currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
           }
-      
+          
           
         });
         

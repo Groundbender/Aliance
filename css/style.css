@@ -680,11 +680,12 @@ padding-right: 28px;
   text-decoration: none;
   color: #fff;
   justify-content: flex-end;
-  padding: 3.125rem;
+  padding:     10.3125rem 3.125rem 3.125rem 3.125rem;;
 }
 .blog-card-about {
   position: relative;
   min-height: 25rem;
+  margin-right: 30px;
 }
 
 
@@ -1561,6 +1562,10 @@ max-width: 100%;
 .client-section-avtohim {
   margin-top: -2.1875rem;
 }
+
+.clients-section-about {
+  margin-top: 10.3125rem;
+}
 .seo {
   margin-top: 100px;
 
@@ -1613,7 +1618,7 @@ margin-top: -1.0625rem;
 .article-blog-card {
   flex-basis: 50%;
   max-width: 44.0625rem;
-  margin-right: 30px;
+  
 }
 .blog-card-title-mobile {
   font-style: normal;
@@ -1860,7 +1865,7 @@ width: 100vw;
    
 }
 .contracts-avtohim-image {
-  max-width: 50%;
+  max-width: 70%;
 }
 
 
